@@ -1,0 +1,1722 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACC_MEM_ID	deca_regs.h	660;"	d
+ACC_MEM_LEN	deca_regs.h	661;"	d
+ACK_RESP_T_ACK_TIM_MASK	deca_regs.h	488;"	d
+ACK_RESP_T_ACK_TIM_OFFSET	deca_regs.h	487;"	d
+ACK_RESP_T_ID	deca_regs.h	480;"	d
+ACK_RESP_T_LEN	deca_regs.h	481;"	d
+ACK_RESP_T_MASK	deca_regs.h	483;"	d
+ACK_RESP_T_W4R_TIM_MASK	deca_regs.h	485;"	d
+ACK_RESP_T_W4R_TIM_OFFSET	deca_regs.h	484;"	d
+ACK_TIM_MASK	deca_regs.h	489;"	d
+ADV_SIZE_PACKET	ble_core.h	/^_Static_assert(sizeof(adv_packet_t) == ADV_SIZE_PACKET, "adv packet is not 64 bytes long! (needs to be 2^n allgined)");$/;"	v
+ADV_SIZE_PACKET	ble_core.h	32;"	d
+AGC_CFG_STS_ID	deca_regs.h	600;"	d
+AGC_CTRL1_DIS_AM	deca_regs.h	605;"	d
+AGC_CTRL1_LEN	deca_regs.h	603;"	d
+AGC_CTRL1_MASK	deca_regs.h	604;"	d
+AGC_CTRL1_OFFSET	deca_regs.h	602;"	d
+AGC_CTRL_ID	deca_regs.h	598;"	d
+AGC_CTRL_LEN	deca_regs.h	599;"	d
+AGC_STAT1_EDG1_MASK	deca_regs.h	629;"	d
+AGC_STAT1_EDG2_MASK	deca_regs.h	630;"	d
+AGC_STAT1_LEN	deca_regs.h	627;"	d
+AGC_STAT1_MASK	deca_regs.h	628;"	d
+AGC_STAT1_OFFSET	deca_regs.h	626;"	d
+AGC_TUNE1_16M	deca_regs.h	611;"	d
+AGC_TUNE1_64M	deca_regs.h	612;"	d
+AGC_TUNE1_LEN	deca_regs.h	609;"	d
+AGC_TUNE1_MASK	deca_regs.h	610;"	d
+AGC_TUNE1_OFFSET	deca_regs.h	608;"	d
+AGC_TUNE2_LEN	deca_regs.h	616;"	d
+AGC_TUNE2_MASK	deca_regs.h	617;"	d
+AGC_TUNE2_OFFSET	deca_regs.h	615;"	d
+AGC_TUNE2_VAL	deca_regs.h	618;"	d
+AGC_TUNE3_LEN	deca_regs.h	622;"	d
+AGC_TUNE3_MASK	deca_regs.h	623;"	d
+AGC_TUNE3_OFFSET	deca_regs.h	621;"	d
+AGC_TUNE3_VAL	deca_regs.h	624;"	d
+ALL_MSG_COMMON_LEN	ss_resp_main.c	28;"	d	file:
+ALL_MSG_COMMON_LEN	ss_twr_init.c	28;"	d	file:
+ALL_MSG_SN_IDX	ss_resp_main.c	31;"	d	file:
+ALL_MSG_SN_IDX	ss_twr_init.c	30;"	d	file:
+AON_ADDR_LEN	deca_regs.h	1075;"	d
+AON_ADDR_LPOSC_CAL_0	deca_regs.h	1076;"	d
+AON_ADDR_LPOSC_CAL_1	deca_regs.h	1077;"	d
+AON_ADDR_OFFSET	deca_regs.h	1074;"	d
+AON_CFG0_LEN	deca_regs.h	1081;"	d
+AON_CFG0_LPCLKDIVA_MASK	deca_regs.h	1087;"	d
+AON_CFG0_LPCLKDIVA_SHIFT	deca_regs.h	1088;"	d
+AON_CFG0_LPDIV_EN	deca_regs.h	1086;"	d
+AON_CFG0_OFFSET	deca_regs.h	1080;"	d
+AON_CFG0_SLEEP_EN	deca_regs.h	1082;"	d
+AON_CFG0_SLEEP_SHIFT	deca_regs.h	1090;"	d
+AON_CFG0_SLEEP_TIM	deca_regs.h	1089;"	d
+AON_CFG0_SLEEP_TIM_OFFSET	deca_regs.h	1091;"	d
+AON_CFG0_WAKE_CNT	deca_regs.h	1085;"	d
+AON_CFG0_WAKE_PIN	deca_regs.h	1083;"	d
+AON_CFG0_WAKE_SPI	deca_regs.h	1084;"	d
+AON_CFG1_LEN	deca_regs.h	1094;"	d
+AON_CFG1_LPOSC_CAL	deca_regs.h	1098;"	d
+AON_CFG1_MASK	deca_regs.h	1095;"	d
+AON_CFG1_OFFSET	deca_regs.h	1093;"	d
+AON_CFG1_SLEEP_CEN	deca_regs.h	1096;"	d
+AON_CFG1_SMXX	deca_regs.h	1097;"	d
+AON_CTRL_DCA_ENAB	deca_regs.h	1069;"	d
+AON_CTRL_DCA_READ	deca_regs.h	1068;"	d
+AON_CTRL_LEN	deca_regs.h	1063;"	d
+AON_CTRL_MASK	deca_regs.h	1064;"	d
+AON_CTRL_OFFSET	deca_regs.h	1062;"	d
+AON_CTRL_RESTORE	deca_regs.h	1065;"	d
+AON_CTRL_SAVE	deca_regs.h	1066;"	d
+AON_CTRL_UPL_CFG	deca_regs.h	1067;"	d
+AON_ID	deca_regs.h	1047;"	d
+AON_LEN	deca_regs.h	1048;"	d
+AON_RDAT_LEN	deca_regs.h	1072;"	d
+AON_RDAT_OFFSET	deca_regs.h	1071;"	d
+AON_WCFG_LEN	deca_regs.h	1051;"	d
+AON_WCFG_MASK	deca_regs.h	1052;"	d
+AON_WCFG_OFFSET	deca_regs.h	1050;"	d
+AON_WCFG_ONW_L64P	deca_regs.h	1057;"	d
+AON_WCFG_ONW_LDC	deca_regs.h	1056;"	d
+AON_WCFG_ONW_LEUI	deca_regs.h	1055;"	d
+AON_WCFG_ONW_LLDE	deca_regs.h	1059;"	d
+AON_WCFG_ONW_LLDO	deca_regs.h	1060;"	d
+AON_WCFG_ONW_RADC	deca_regs.h	1053;"	d
+AON_WCFG_ONW_RX	deca_regs.h	1054;"	d
+AON_WCFG_PRES_SLEEP	deca_regs.h	1058;"	d
+APP_NAME	ss_twr_init.c	17;"	d	file:
+APP_NAME	tx_core.c	8;"	d	file:
+ARFE	deca_device_api.h	/^    uint16 ARFE ;                   \/\/number of address filter errors$/;"	m	struct:__anon11
+ASSERT	global_defines.h	27;"	d
+B20_SIGN_EXTEND_MASK	deca_device.c	970;"	d	file:
+B20_SIGN_EXTEND_TEST	deca_device.c	969;"	d	file:
+BLE_MANUFACTURERS_DATA_LEN	ble_core.h	26;"	d
+BLE_MANUFACTURERS_NAME_LEN	ble_core.h	27;"	d
+BLINK_FRAME_SN_IDX	tx_core.c	38;"	d	file:
+BLUE_PIN	gpio_core.h	16;"	d
+BOOSTNORM_MASK	deca_regs.h	522;"	d
+BOOSTP125_MASK	deca_regs.h	531;"	d
+BOOSTP250_MASK	deca_regs.h	528;"	d
+BOOSTP500_MASK	deca_regs.h	525;"	d
+BT_UUID_DUMP_VALUE	ble_core.h	16;"	d
+BT_UUID_FW_REQ_VALUE	ble_core.h	18;"	d
+BT_UUID_FW_VALUE	ble_core.h	19;"	d
+BT_UUID_FW_VER_VALUE	ble_core.h	17;"	d
+BT_UUID_SERVICE_CW	ble_core.h	14;"	d
+BT_UUID_TIME_VALUE	ble_core.h	15;"	d
+BUZZER_PIN	gpio_core.h	19;"	d
+BYTES_PER_LINE	flash_core.c	77;"	d	file:
+CHAN_CTRL_DWSFD	deca_regs.h	563;"	d
+CHAN_CTRL_DWSFD_SHIFT	deca_regs.h	564;"	d
+CHAN_CTRL_ID	deca_regs.h	542;"	d
+CHAN_CTRL_LEN	deca_regs.h	543;"	d
+CHAN_CTRL_MASK	deca_regs.h	545;"	d
+CHAN_CTRL_RNSSFD	deca_regs.h	567;"	d
+CHAN_CTRL_RNSSFD_SHIFT	deca_regs.h	568;"	d
+CHAN_CTRL_RXFPRF_16	deca_regs.h	556;"	d
+CHAN_CTRL_RXFPRF_4	deca_regs.h	555;"	d
+CHAN_CTRL_RXFPRF_64	deca_regs.h	557;"	d
+CHAN_CTRL_RXFPRF_MASK	deca_regs.h	552;"	d
+CHAN_CTRL_RXFPRF_SHIFT	deca_regs.h	553;"	d
+CHAN_CTRL_RX_CHAN_MASK	deca_regs.h	549;"	d
+CHAN_CTRL_RX_CHAN_SHIFT	deca_regs.h	550;"	d
+CHAN_CTRL_RX_PCOD_MASK	deca_regs.h	560;"	d
+CHAN_CTRL_RX_PCOD_SHIFT	deca_regs.h	561;"	d
+CHAN_CTRL_TNSSFD	deca_regs.h	565;"	d
+CHAN_CTRL_TNSSFD_SHIFT	deca_regs.h	566;"	d
+CHAN_CTRL_TX_CHAN_MASK	deca_regs.h	546;"	d
+CHAN_CTRL_TX_CHAN_SHIFT	deca_regs.h	547;"	d
+CHAN_CTRL_TX_PCOD_MASK	deca_regs.h	558;"	d
+CHAN_CTRL_TX_PCOD_SHIFT	deca_regs.h	559;"	d
+CHUNK_PROBLEM	flash_core.h	36;"	d
+CHUNK_VALID	flash_core.h	34;"	d
+CIR_MXG_MASK	deca_regs.h	393;"	d
+CIR_MXG_SHIFT	deca_regs.h	394;"	d
+CONNECTION_TIMEOUT	ble_core.h	35;"	d
+CORE_DEVICE_LEN	ble_core.h	31;"	d
+CORE_DEVICE_NAME	ble_core.h	30;"	d
+CRCB	deca_device_api.h	/^    uint16 CRCB ;                   \/\/number of bad CRC (CRC error) received frames$/;"	m	struct:__anon11
+CRCG	deca_device_api.h	/^    uint16 CRCG ;                   \/\/number of good CRC received frames$/;"	m	struct:__anon11
+CRTR_GEAR_OFFSET	deca_regs.h	1287;"	d
+CRTR_ID	deca_regs.h	1286;"	d
+CS_HIGH	gpio_core.h	12;"	d
+CS_LOW	gpio_core.h	11;"	d
+DATE_SANITY_CHECK	time_core.h	10;"	d
+DA_ATTN_STEP	deca_param_types.h	61;"	d
+DCELCIUS_TO_SAR_TEMP_CONV	deca_param_types.h	57;"	d
+DEBUG_CONFIG_DUMP_TO_BLE	global_defines.h	39;"	d
+DEBUG_QUEUE_DEPTH	trace_core.h	12;"	d
+DECA_RST_PIN	gpio_core.h	18;"	d
+DEMOD_GEAR_64L	deca_regs.h	1289;"	d
+DEMOD_GEAR_DEF	deca_regs.h	1288;"	d
+DEVICE_BLE	flash_core.h	41;"	d
+DEVICE_NAME	ble_core.h	10;"	d
+DEVICE_NAME_LEN	ble_core.h	11;"	d
+DEV_ID_ID	deca_regs.h	27;"	d
+DEV_ID_LEN	deca_regs.h	28;"	d
+DEV_ID_MODEL_MASK	deca_regs.h	32;"	d
+DEV_ID_REV_MASK	deca_regs.h	30;"	d
+DEV_ID_RIDTAG_MASK	deca_regs.h	33;"	d
+DEV_ID_VER_MASK	deca_regs.h	31;"	d
+DIAG_TMC_LEN	deca_regs.h	1275;"	d
+DIAG_TMC_MASK	deca_regs.h	1276;"	d
+DIAG_TMC_OFFSET	deca_regs.h	1274;"	d
+DIAG_TMC_TX_PSTM	deca_regs.h	1277;"	d
+DIG_DIAG_ID	deca_regs.h	1206;"	d
+DIG_DIAG_LEN	deca_regs.h	1207;"	d
+DISCONNECT_TIMEOUT	ble_core.h	36;"	d
+DISTANCE_CM_SENTINIL_VAL	trace_core.h	16;"	d
+DONE_VAL	signals_core.h	9;"	d
+DRX_CARRIER_INT_LEN	deca_regs.h	918;"	d
+DRX_CARRIER_INT_MASK	deca_regs.h	919;"	d
+DRX_CARRIER_INT_OFFSET	deca_regs.h	917;"	d
+DRX_CONF_ID	deca_regs.h	852;"	d
+DRX_CONF_LEN	deca_regs.h	853;"	d
+DRX_PRETOC_LEN	deca_regs.h	906;"	d
+DRX_PRETOC_MASK	deca_regs.h	907;"	d
+DRX_PRETOC_OFFSET	deca_regs.h	905;"	d
+DRX_SFDTOC_LEN	deca_regs.h	901;"	d
+DRX_SFDTOC_MASK	deca_regs.h	902;"	d
+DRX_SFDTOC_OFFSET	deca_regs.h	900;"	d
+DRX_TUNE0b_110K_NSTD	deca_regs.h	859;"	d
+DRX_TUNE0b_110K_STD	deca_regs.h	858;"	d
+DRX_TUNE0b_6M8_NSTD	deca_regs.h	863;"	d
+DRX_TUNE0b_6M8_STD	deca_regs.h	862;"	d
+DRX_TUNE0b_850K_NSTD	deca_regs.h	861;"	d
+DRX_TUNE0b_850K_STD	deca_regs.h	860;"	d
+DRX_TUNE0b_LEN	deca_regs.h	856;"	d
+DRX_TUNE0b_MASK	deca_regs.h	857;"	d
+DRX_TUNE0b_OFFSET	deca_regs.h	855;"	d
+DRX_TUNE1a_LEN	deca_regs.h	867;"	d
+DRX_TUNE1a_MASK	deca_regs.h	868;"	d
+DRX_TUNE1a_OFFSET	deca_regs.h	866;"	d
+DRX_TUNE1a_PRF16	deca_regs.h	869;"	d
+DRX_TUNE1a_PRF64	deca_regs.h	870;"	d
+DRX_TUNE1b_110K	deca_regs.h	876;"	d
+DRX_TUNE1b_6M8_PRE64	deca_regs.h	878;"	d
+DRX_TUNE1b_850K_6M8	deca_regs.h	877;"	d
+DRX_TUNE1b_LEN	deca_regs.h	874;"	d
+DRX_TUNE1b_MASK	deca_regs.h	875;"	d
+DRX_TUNE1b_OFFSET	deca_regs.h	873;"	d
+DRX_TUNE2_LEN	deca_regs.h	882;"	d
+DRX_TUNE2_MASK	deca_regs.h	883;"	d
+DRX_TUNE2_OFFSET	deca_regs.h	881;"	d
+DRX_TUNE2_PRF16_PAC16	deca_regs.h	885;"	d
+DRX_TUNE2_PRF16_PAC32	deca_regs.h	886;"	d
+DRX_TUNE2_PRF16_PAC64	deca_regs.h	887;"	d
+DRX_TUNE2_PRF16_PAC8	deca_regs.h	884;"	d
+DRX_TUNE2_PRF64_PAC16	deca_regs.h	889;"	d
+DRX_TUNE2_PRF64_PAC32	deca_regs.h	890;"	d
+DRX_TUNE2_PRF64_PAC64	deca_regs.h	891;"	d
+DRX_TUNE2_PRF64_PAC8	deca_regs.h	888;"	d
+DRX_TUNE2_UNCONF_SFD_TH_PRF16	deca_regs.h	893;"	d
+DRX_TUNE2_UNCONF_SFD_TH_PRF64	deca_regs.h	894;"	d
+DRX_TUNE4H_LEN	deca_regs.h	911;"	d
+DRX_TUNE4H_MASK	deca_regs.h	912;"	d
+DRX_TUNE4H_OFFSET	deca_regs.h	910;"	d
+DRX_TUNE4H_PRE128PLUS	deca_regs.h	914;"	d
+DRX_TUNE4H_PRE64	deca_regs.h	913;"	d
+DW1000_DEVICE_DRIVER_VER_STRING	deca_version.h	30;"	d
+DW1000_DRIVER_VERSION	deca_version.h	29;"	d
+DWT_BR_110K	deca_device_api.h	76;"	d
+DWT_BR_6M8	deca_device_api.h	78;"	d
+DWT_BR_850K	deca_device_api.h	77;"	d
+DWT_CB_DATA_RX_FLAG_RNG	deca_device_api.h	210;"	d
+DWT_CONFIG	deca_device_api.h	157;"	d
+DWT_DEVICE_ID	deca_device_api.h	72;"	d
+DWT_DW_WAKE_UP	deca_device_api.h	173;"	d
+DWT_DW_WUP_NO_UCODE	deca_device_api.h	174;"	d
+DWT_DW_WUP_RD_OTPREV	deca_device_api.h	175;"	d
+DWT_ERROR	deca_device_api.h	68;"	d
+DWT_FF_ACK_EN	deca_device_api.h	135;"	d
+DWT_FF_BEACON_EN	deca_device_api.h	133;"	d
+DWT_FF_COORD_EN	deca_device_api.h	132;"	d
+DWT_FF_DATA_EN	deca_device_api.h	134;"	d
+DWT_FF_MAC_EN	deca_device_api.h	136;"	d
+DWT_FF_NOTYPE_EN	deca_device_api.h	131;"	d
+DWT_FF_RSVD_EN	deca_device_api.h	137;"	d
+DWT_GxM0	deca_device_api.h	198;"	d
+DWT_GxM1	deca_device_api.h	199;"	d
+DWT_GxM2	deca_device_api.h	200;"	d
+DWT_GxM3	deca_device_api.h	201;"	d
+DWT_GxM4	deca_device_api.h	202;"	d
+DWT_GxM5	deca_device_api.h	203;"	d
+DWT_GxM6	deca_device_api.h	204;"	d
+DWT_GxM7	deca_device_api.h	205;"	d
+DWT_GxM8	deca_device_api.h	206;"	d
+DWT_GxP0	deca_device_api.h	188;"	d
+DWT_GxP1	deca_device_api.h	189;"	d
+DWT_GxP2	deca_device_api.h	190;"	d
+DWT_GxP3	deca_device_api.h	191;"	d
+DWT_GxP4	deca_device_api.h	192;"	d
+DWT_GxP5	deca_device_api.h	193;"	d
+DWT_GxP6	deca_device_api.h	194;"	d
+DWT_GxP7	deca_device_api.h	195;"	d
+DWT_GxP8	deca_device_api.h	196;"	d
+DWT_IDLE_ON_DLY_ERR	deca_device_api.h	115;"	d
+DWT_INT_ARFE	deca_device_api.h	151;"	d
+DWT_INT_GPIO	deca_device_api.h	149;"	d
+DWT_INT_LDED	deca_device_api.h	141;"	d
+DWT_INT_RFCE	deca_device_api.h	144;"	d
+DWT_INT_RFCG	deca_device_api.h	142;"	d
+DWT_INT_RFSL	deca_device_api.h	145;"	d
+DWT_INT_RFTO	deca_device_api.h	146;"	d
+DWT_INT_RPHE	deca_device_api.h	143;"	d
+DWT_INT_RXOVRR	deca_device_api.h	147;"	d
+DWT_INT_RXPTO	deca_device_api.h	148;"	d
+DWT_INT_SFDT	deca_device_api.h	150;"	d
+DWT_INT_TFRS	deca_device_api.h	140;"	d
+DWT_LEDS_DISABLE	deca_device_api.h	121;"	d
+DWT_LEDS_ENABLE	deca_device_api.h	122;"	d
+DWT_LEDS_INIT_BLINK	deca_device_api.h	123;"	d
+DWT_LNA_ENABLE	deca_device_api.h	127;"	d
+DWT_LNA_PA_DISABLE	deca_device_api.h	126;"	d
+DWT_LOADEUI	deca_device_api.h	158;"	d
+DWT_LOADNONE	deca_device_api.h	171;"	d
+DWT_LOADOPSET	deca_device_api.h	156;"	d
+DWT_LOADUCODE	deca_device_api.h	172;"	d
+DWT_NO_SYNC_PTRS	deca_device_api.h	117;"	d
+DWT_NUM_DW_DEV	deca_device_api.h	64;"	d
+DWT_OPSET_64LEN	deca_device_api.h	183;"	d
+DWT_OPSET_DEFLT	deca_device_api.h	185;"	d
+DWT_OPSET_TIGHT	deca_device_api.h	184;"	d
+DWT_PAC16	deca_device_api.h	87;"	d
+DWT_PAC32	deca_device_api.h	88;"	d
+DWT_PAC64	deca_device_api.h	89;"	d
+DWT_PAC8	deca_device_api.h	86;"	d
+DWT_PA_ENABLE	deca_device_api.h	128;"	d
+DWT_PHRMODE_EXT	deca_device_api.h	106;"	d
+DWT_PHRMODE_STD	deca_device_api.h	105;"	d
+DWT_PLEN_1024	deca_device_api.h	97;"	d
+DWT_PLEN_128	deca_device_api.h	100;"	d
+DWT_PLEN_1536	deca_device_api.h	96;"	d
+DWT_PLEN_2048	deca_device_api.h	95;"	d
+DWT_PLEN_256	deca_device_api.h	99;"	d
+DWT_PLEN_4096	deca_device_api.h	94;"	d
+DWT_PLEN_512	deca_device_api.h	98;"	d
+DWT_PLEN_64	deca_device_api.h	101;"	d
+DWT_PRESRV_SLEEP	deca_device_api.h	155;"	d
+DWT_PRF_16M	deca_device_api.h	82;"	d
+DWT_PRF_64M	deca_device_api.h	83;"	d
+DWT_READ_OTP_BAT	deca_device_api.h	178;"	d
+DWT_READ_OTP_LID	deca_device_api.h	177;"	d
+DWT_READ_OTP_PID	deca_device_api.h	176;"	d
+DWT_READ_OTP_TMP	deca_device_api.h	179;"	d
+DWT_RESPONSE_EXPECTED	deca_device_api.h	111;"	d
+DWT_RX_EN	deca_device_api.h	159;"	d
+DWT_SFDTOC_DEF	deca_device_api.h	103;"	d
+DWT_SLP_EN	deca_device_api.h	166;"	d
+DWT_START_RX_DELAYED	deca_device_api.h	114;"	d
+DWT_START_RX_IMMEDIATE	deca_device_api.h	113;"	d
+DWT_START_TX_DELAYED	deca_device_api.h	110;"	d
+DWT_START_TX_IMMEDIATE	deca_device_api.h	109;"	d
+DWT_SUCCESS	deca_device_api.h	67;"	d
+DWT_TANDV	deca_device_api.h	160;"	d
+DWT_TIME_UNITS	deca_device_api.h	70;"	d
+DWT_WAKE_CS	deca_device_api.h	164;"	d
+DWT_WAKE_SLPCNT	deca_device_api.h	163;"	d
+DWT_WAKE_WK	deca_device_api.h	165;"	d
+DWT_XTAL_EN	deca_device_api.h	162;"	d
+DW_NS_SFD_LEN_110K	deca_regs.h	584;"	d
+DW_NS_SFD_LEN_6M8	deca_regs.h	586;"	d
+DW_NS_SFD_LEN_850K	deca_regs.h	585;"	d
+DX_TIME_ID	deca_regs.h	164;"	d
+DX_TIME_LEN	deca_regs.h	165;"	d
+EC_CTRL_LEN	deca_regs.h	639;"	d
+EC_CTRL_MASK	deca_regs.h	640;"	d
+EC_CTRL_OFFSET	deca_regs.h	638;"	d
+EC_CTRL_OSRSM	deca_regs.h	642;"	d
+EC_CTRL_OSTRM	deca_regs.h	644;"	d
+EC_CTRL_OSTSM	deca_regs.h	641;"	d
+EC_CTRL_PLLLCK	deca_regs.h	643;"	d
+EC_CTRL_WAIT_MASK	deca_regs.h	645;"	d
+EC_GOLP	deca_regs.h	651;"	d
+EC_GOLP_LEN	deca_regs.h	652;"	d
+EC_GOLP_MASK	deca_regs.h	653;"	d
+EC_GOLP_OFFSET_EXT_MASK	deca_regs.h	654;"	d
+EC_RXTC_LEN	deca_regs.h	648;"	d
+EC_RXTC_MASK	deca_regs.h	649;"	d
+EC_RXTC_OFFSET	deca_regs.h	647;"	d
+EMIT_EVENT_NONE	emit_core.h	/^    EMIT_EVENT_NONE = 0,         $/;"	e	enum:__anon17
+ENABLE_ALL_SEQ	deca_device.c	29;"	d	file:
+ESP_LOGE	global_defines.h	13;"	d
+ESP_LOGE	global_defines.h	6;"	d
+ESP_LOGI	global_defines.h	17;"	d
+ESP_LOGI	global_defines.h	24;"	d
+EUI_64_ID	deca_regs.h	38;"	d
+EUI_64_LEN	deca_regs.h	40;"	d
+EUI_64_OFFSET	deca_regs.h	39;"	d
+EVC_CLR	deca_regs.h	1214;"	d
+EVC_CTRL_LEN	deca_regs.h	1211;"	d
+EVC_CTRL_MASK	deca_regs.h	1212;"	d
+EVC_CTRL_OFFSET	deca_regs.h	1210;"	d
+EVC_EN	deca_regs.h	1213;"	d
+EVC_FCE_LEN	deca_regs.h	1231;"	d
+EVC_FCE_MASK	deca_regs.h	1232;"	d
+EVC_FCE_OFFSET	deca_regs.h	1230;"	d
+EVC_FCG_LEN	deca_regs.h	1227;"	d
+EVC_FCG_MASK	deca_regs.h	1228;"	d
+EVC_FCG_OFFSET	deca_regs.h	1226;"	d
+EVC_FFR_LEN	deca_regs.h	1236;"	d
+EVC_FFR_MASK	deca_regs.h	1237;"	d
+EVC_FFR_OFFSET	deca_regs.h	1235;"	d
+EVC_FWTO_LEN	deca_regs.h	1254;"	d
+EVC_FWTO_MASK	deca_regs.h	1255;"	d
+EVC_FWTO_OFFSET	deca_regs.h	1253;"	d
+EVC_HPW_LEN	deca_regs.h	1263;"	d
+EVC_HPW_MASK	deca_regs.h	1264;"	d
+EVC_HPW_OFFSET	deca_regs.h	1262;"	d
+EVC_OVR_LEN	deca_regs.h	1240;"	d
+EVC_OVR_LEN	deca_regs.h	1245;"	d
+EVC_OVR_MASK	deca_regs.h	1241;"	d
+EVC_OVR_MASK	deca_regs.h	1246;"	d
+EVC_OVR_OFFSET	deca_regs.h	1239;"	d
+EVC_PHE_LEN	deca_regs.h	1218;"	d
+EVC_PHE_MASK	deca_regs.h	1219;"	d
+EVC_PHE_OFFSET	deca_regs.h	1217;"	d
+EVC_PTO_LEN	deca_regs.h	1249;"	d
+EVC_PTO_MASK	deca_regs.h	1250;"	d
+EVC_PTO_OFFSET	deca_regs.h	1248;"	d
+EVC_RES1_OFFSET	deca_regs.h	1271;"	d
+EVC_RSE_LEN	deca_regs.h	1222;"	d
+EVC_RSE_MASK	deca_regs.h	1223;"	d
+EVC_RSE_OFFSET	deca_regs.h	1221;"	d
+EVC_STO_OFFSET	deca_regs.h	1244;"	d
+EVC_TPW_LEN	deca_regs.h	1267;"	d
+EVC_TPW_MASK	deca_regs.h	1268;"	d
+EVC_TPW_OFFSET	deca_regs.h	1266;"	d
+EVC_TXFS_LEN	deca_regs.h	1258;"	d
+EVC_TXFS_MASK	deca_regs.h	1259;"	d
+EVC_TXFS_OFFSET	deca_regs.h	1257;"	d
+EVENT_MULTIPLEXER_PRIORITY	state_core.h	91;"	d
+EVENT_MUX_THREAD_SIZE	state_core.h	89;"	d
+EVENT_QUEUE_MAX_DEPTH	state_core.h	94;"	d
+EXT_SYNC_ID	deca_regs.h	635;"	d
+EXT_SYNC_LEN	deca_regs.h	636;"	d
+FCTRL_ACK_REQ_MASK	deca_device.c	39;"	d	file:
+FCTRL_LEN_MAX	deca_device.c	41;"	d	file:
+FINAL_MSG_DISTANCE_IDX	ss_resp_main.c	35;"	d	file:
+FINAL_MSG_DISTANCE_IDX	ss_twr_init.c	34;"	d	file:
+FINAL_VALID_PACKET_OFFSET	flash_core.h	22;"	d
+FINAL_VALID_PAGE	flash_core.h	21;"	d
+FIRST_NON_IMAGE_PAGE	flash_core.c	546;"	d	file:
+FIRST_PAGE_INCIDENCE_DATA	flash_core.h	16;"	d
+FLASH_PACKETS_PER_CHUNK	flash_core.h	30;"	d
+FLASH_PAGE_SIZE	flash_core.h	10;"	d
+FLASH_SIZE_PACKET	flash_core.h	/^_Static_assert(sizeof(flash_packet_t) == FLASH_SIZE_PACKET, "flash packet is not 32 bytes long!");$/;"	v
+FLASH_SIZE_PACKET	flash_core.h	15;"	d
+FORCE_LDE	deca_device.c	36;"	d	file:
+FORCE_OTP_OFF	deca_device.c	34;"	d	file:
+FORCE_OTP_ON	deca_device.c	33;"	d	file:
+FORCE_SYS_PLL	deca_device.c	30;"	d	file:
+FORCE_SYS_XTI	deca_device.c	28;"	d	file:
+FORCE_TX_PLL	deca_device.c	35;"	d	file:
+FP_AMPL2_MASK	deca_regs.h	381;"	d
+FP_AMPL2_SHIFT	deca_regs.h	382;"	d
+FP_AMPL3_MASK	deca_regs.h	387;"	d
+FP_AMPL3_SHIFT	deca_regs.h	388;"	d
+FRAME_LEN_MAX	rx_core.c	29;"	d	file:
+FREQ_OFFSET_MULTIPLIER	deca_device_api.h	1430;"	d
+FREQ_OFFSET_MULTIPLIER_110KB	deca_device_api.h	1431;"	d
+FS_CTRL_ID	deca_regs.h	1009;"	d
+FS_CTRL_LEN	deca_regs.h	1010;"	d
+FS_PLLCFG_CH1	deca_regs.h	1017;"	d
+FS_PLLCFG_CH2	deca_regs.h	1018;"	d
+FS_PLLCFG_CH3	deca_regs.h	1019;"	d
+FS_PLLCFG_CH4	deca_regs.h	1020;"	d
+FS_PLLCFG_CH5	deca_regs.h	1021;"	d
+FS_PLLCFG_CH7	deca_regs.h	1022;"	d
+FS_PLLCFG_LEN	deca_regs.h	1016;"	d
+FS_PLLCFG_OFFSET	deca_regs.h	1015;"	d
+FS_PLLTUNE_CH1	deca_regs.h	1026;"	d
+FS_PLLTUNE_CH2	deca_regs.h	1027;"	d
+FS_PLLTUNE_CH3	deca_regs.h	1028;"	d
+FS_PLLTUNE_CH4	deca_regs.h	1029;"	d
+FS_PLLTUNE_CH5	deca_regs.h	1030;"	d
+FS_PLLTUNE_CH7	deca_regs.h	1031;"	d
+FS_PLLTUNE_LEN	deca_regs.h	1025;"	d
+FS_PLLTUNE_OFFSET	deca_regs.h	1024;"	d
+FS_RES1_LEN	deca_regs.h	1013;"	d
+FS_RES1_OFFSET	deca_regs.h	1012;"	d
+FS_RES2_LEN	deca_regs.h	1034;"	d
+FS_RES2_OFFSET	deca_regs.h	1033;"	d
+FS_RES3_LEN	deca_regs.h	1042;"	d
+FS_RES3_OFFSET	deca_regs.h	1041;"	d
+FS_XTALT_LEN	deca_regs.h	1037;"	d
+FS_XTALT_MASK	deca_regs.h	1038;"	d
+FS_XTALT_MIDRANGE	deca_regs.h	1039;"	d
+FS_XTALT_OFFSET	deca_regs.h	1036;"	d
+GDM0	deca_regs.h	726;"	d
+GDM1	deca_regs.h	727;"	d
+GDM2	deca_regs.h	728;"	d
+GDM3	deca_regs.h	729;"	d
+GDM4	deca_regs.h	730;"	d
+GDM5	deca_regs.h	731;"	d
+GDM6	deca_regs.h	732;"	d
+GDM7	deca_regs.h	733;"	d
+GDM8	deca_regs.h	734;"	d
+GDP0	deca_regs.h	716;"	d
+GDP1	deca_regs.h	717;"	d
+GDP2	deca_regs.h	718;"	d
+GDP3	deca_regs.h	719;"	d
+GDP4	deca_regs.h	720;"	d
+GDP5	deca_regs.h	721;"	d
+GDP6	deca_regs.h	722;"	d
+GDP7	deca_regs.h	723;"	d
+GDP8	deca_regs.h	724;"	d
+GENERIC_MESSGE_Q_DEPTH	state_core.h	98;"	d
+GENERIC_QUEUE_TIMEOUT	state_core.h	92;"	d
+GIBES0	deca_regs.h	796;"	d
+GIBES1	deca_regs.h	797;"	d
+GIBES2	deca_regs.h	798;"	d
+GIBES3	deca_regs.h	799;"	d
+GIBES4	deca_regs.h	800;"	d
+GIBES5	deca_regs.h	801;"	d
+GIBES6	deca_regs.h	802;"	d
+GIBES7	deca_regs.h	803;"	d
+GIBES8	deca_regs.h	804;"	d
+GICLR0	deca_regs.h	810;"	d
+GICLR1	deca_regs.h	811;"	d
+GICLR2	deca_regs.h	812;"	d
+GICLR3	deca_regs.h	813;"	d
+GICLR4	deca_regs.h	814;"	d
+GICLR5	deca_regs.h	815;"	d
+GICLR6	deca_regs.h	816;"	d
+GICLR7	deca_regs.h	817;"	d
+GICLR8	deca_regs.h	818;"	d
+GIDBE0	deca_regs.h	824;"	d
+GIDBE1	deca_regs.h	825;"	d
+GIDBE2	deca_regs.h	826;"	d
+GIDBE3	deca_regs.h	827;"	d
+GIDBE4	deca_regs.h	828;"	d
+GIDBE5	deca_regs.h	829;"	d
+GIDBE6	deca_regs.h	830;"	d
+GIDBE7	deca_regs.h	831;"	d
+GIDBE8	deca_regs.h	832;"	d
+GIMOD0	deca_regs.h	782;"	d
+GIMOD1	deca_regs.h	783;"	d
+GIMOD2	deca_regs.h	784;"	d
+GIMOD3	deca_regs.h	785;"	d
+GIMOD4	deca_regs.h	786;"	d
+GIMOD5	deca_regs.h	787;"	d
+GIMOD6	deca_regs.h	788;"	d
+GIMOD7	deca_regs.h	789;"	d
+GIMOD8	deca_regs.h	790;"	d
+GIRQE0	deca_regs.h	754;"	d
+GIRQE1	deca_regs.h	755;"	d
+GIRQE2	deca_regs.h	756;"	d
+GIRQE3	deca_regs.h	757;"	d
+GIRQE4	deca_regs.h	758;"	d
+GIRQE5	deca_regs.h	759;"	d
+GIRQE6	deca_regs.h	760;"	d
+GIRQE7	deca_regs.h	761;"	d
+GIRQE8	deca_regs.h	762;"	d
+GIRQx0	deca_regs.h	745;"	d
+GIRQx1	deca_regs.h	746;"	d
+GIRQx2	deca_regs.h	747;"	d
+GIRQx3	deca_regs.h	748;"	d
+GIRQx4	deca_regs.h	749;"	d
+GIRQx5	deca_regs.h	750;"	d
+GIRQx6	deca_regs.h	751;"	d
+GIRQx7	deca_regs.h	752;"	d
+GIRQx8	deca_regs.h	753;"	d
+GISEN0	deca_regs.h	768;"	d
+GISEN1	deca_regs.h	769;"	d
+GISEN2	deca_regs.h	770;"	d
+GISEN3	deca_regs.h	771;"	d
+GISEN4	deca_regs.h	772;"	d
+GISEN5	deca_regs.h	773;"	d
+GISEN6	deca_regs.h	774;"	d
+GISEN7	deca_regs.h	775;"	d
+GISEN8	deca_regs.h	776;"	d
+GPIO_CTRL_ID	deca_regs.h	667;"	d
+GPIO_CTRL_LEN	deca_regs.h	668;"	d
+GPIO_DIR_LEN	deca_regs.h	693;"	d
+GPIO_DIR_MASK	deca_regs.h	694;"	d
+GPIO_DIR_OFFSET	deca_regs.h	692;"	d
+GPIO_DOUT_LEN	deca_regs.h	738;"	d
+GPIO_DOUT_MASK	deca_regs.h	739;"	d
+GPIO_DOUT_OFFSET	deca_regs.h	737;"	d
+GPIO_IBES_LEN	deca_regs.h	794;"	d
+GPIO_IBES_MASK	deca_regs.h	795;"	d
+GPIO_IBES_OFFSET	deca_regs.h	793;"	d
+GPIO_ICLR_LEN	deca_regs.h	808;"	d
+GPIO_ICLR_MASK	deca_regs.h	809;"	d
+GPIO_ICLR_OFFSET	deca_regs.h	807;"	d
+GPIO_IDBE_LEN	deca_regs.h	822;"	d
+GPIO_IDBE_MASK	deca_regs.h	823;"	d
+GPIO_IDBE_OFFSET	deca_regs.h	821;"	d
+GPIO_IMODE_LEN	deca_regs.h	780;"	d
+GPIO_IMODE_MASK	deca_regs.h	781;"	d
+GPIO_IMODE_OFFSET	deca_regs.h	779;"	d
+GPIO_IRQE_LEN	deca_regs.h	743;"	d
+GPIO_IRQE_MASK	deca_regs.h	744;"	d
+GPIO_IRQE_OFFSET	deca_regs.h	742;"	d
+GPIO_ISEN_LEN	deca_regs.h	766;"	d
+GPIO_ISEN_MASK	deca_regs.h	767;"	d
+GPIO_ISEN_OFFSET	deca_regs.h	765;"	d
+GPIO_MODE_LEN	deca_regs.h	672;"	d
+GPIO_MODE_MASK	deca_regs.h	673;"	d
+GPIO_MODE_OFFSET	deca_regs.h	671;"	d
+GPIO_MSGP0_MASK	deca_regs.h	675;"	d
+GPIO_MSGP1_MASK	deca_regs.h	676;"	d
+GPIO_MSGP2_MASK	deca_regs.h	677;"	d
+GPIO_MSGP3_MASK	deca_regs.h	678;"	d
+GPIO_MSGP4_MASK	deca_regs.h	679;"	d
+GPIO_MSGP5_MASK	deca_regs.h	680;"	d
+GPIO_MSGP6_MASK	deca_regs.h	681;"	d
+GPIO_MSGP7_MASK	deca_regs.h	682;"	d
+GPIO_MSGP8_MASK	deca_regs.h	683;"	d
+GPIO_PIN2_RXLED	deca_regs.h	685;"	d
+GPIO_PIN3_TXLED	deca_regs.h	686;"	d
+GPIO_PIN4_EXTPA	deca_regs.h	687;"	d
+GPIO_PIN5_EXTTXE	deca_regs.h	688;"	d
+GPIO_PIN6_EXTRXE	deca_regs.h	689;"	d
+GPIO_RAW_LEN	deca_regs.h	836;"	d
+GPIO_RAW_MASK	deca_regs.h	837;"	d
+GPIO_RAW_OFFSET	deca_regs.h	835;"	d
+GRAWP0	deca_regs.h	838;"	d
+GRAWP1	deca_regs.h	839;"	d
+GRAWP2	deca_regs.h	840;"	d
+GRAWP3	deca_regs.h	841;"	d
+GRAWP4	deca_regs.h	842;"	d
+GRAWP5	deca_regs.h	843;"	d
+GRAWP6	deca_regs.h	844;"	d
+GRAWP7	deca_regs.h	845;"	d
+GRAWP8	deca_regs.h	846;"	d
+GxM0	deca_regs.h	706;"	d
+GxM1	deca_regs.h	707;"	d
+GxM2	deca_regs.h	708;"	d
+GxM3	deca_regs.h	709;"	d
+GxM4	deca_regs.h	710;"	d
+GxM5	deca_regs.h	711;"	d
+GxM6	deca_regs.h	712;"	d
+GxM7	deca_regs.h	713;"	d
+GxM8	deca_regs.h	714;"	d
+GxP0	deca_regs.h	696;"	d
+GxP1	deca_regs.h	697;"	d
+GxP2	deca_regs.h	698;"	d
+GxP3	deca_regs.h	699;"	d
+GxP4	deca_regs.h	700;"	d
+GxP5	deca_regs.h	701;"	d
+GxP6	deca_regs.h	702;"	d
+GxP7	deca_regs.h	703;"	d
+GxP8	deca_regs.h	704;"	d
+HEADER_PACKET_OFFSET	flash_core.h	18;"	d
+HERTZ_TO_PPM_MULTIPLIER_CHAN_1	deca_device_api.h	1436;"	d
+HERTZ_TO_PPM_MULTIPLIER_CHAN_2	deca_device_api.h	1437;"	d
+HERTZ_TO_PPM_MULTIPLIER_CHAN_3	deca_device_api.h	1438;"	d
+HERTZ_TO_PPM_MULTIPLIER_CHAN_5	deca_device_api.h	1439;"	d
+HPW	deca_device_api.h	/^    uint16 HPW ;                    \/\/half period warn$/;"	m	struct:__anon11
+IMAGE_SIZE_IN_PAGES	flash_core.h	12;"	d
+INVALID_EVENT	state_core.h	93;"	d
+LATEST_START_ADVERTIING	time_core.h	19;"	d
+LDE_CFG1_LEN	deca_regs.h	1158;"	d
+LDE_CFG1_NSTDEV_MASK	deca_regs.h	1159;"	d
+LDE_CFG1_OFFSET	deca_regs.h	1157;"	d
+LDE_CFG1_PMULT_MASK	deca_regs.h	1160;"	d
+LDE_CFG2_LEN	deca_regs.h	1172;"	d
+LDE_CFG2_OFFSET	deca_regs.h	1171;"	d
+LDE_IF_ID	deca_regs.h	1151;"	d
+LDE_IF_LEN	deca_regs.h	1152;"	d
+LDE_PARAM1	deca_param_types.h	67;"	d
+LDE_PARAM3_16	deca_param_types.h	69;"	d
+LDE_PARAM3_64	deca_param_types.h	70;"	d
+LDE_PPAMPL_LEN	deca_regs.h	1166;"	d
+LDE_PPAMPL_OFFSET	deca_regs.h	1165;"	d
+LDE_PPINDX_LEN	deca_regs.h	1163;"	d
+LDE_PPINDX_OFFSET	deca_regs.h	1162;"	d
+LDE_REPC_LEN	deca_regs.h	1175;"	d
+LDE_REPC_OFFSET	deca_regs.h	1174;"	d
+LDE_REPC_PCODE_1	deca_regs.h	1176;"	d
+LDE_REPC_PCODE_10	deca_regs.h	1185;"	d
+LDE_REPC_PCODE_11	deca_regs.h	1186;"	d
+LDE_REPC_PCODE_12	deca_regs.h	1187;"	d
+LDE_REPC_PCODE_13	deca_regs.h	1188;"	d
+LDE_REPC_PCODE_14	deca_regs.h	1189;"	d
+LDE_REPC_PCODE_15	deca_regs.h	1190;"	d
+LDE_REPC_PCODE_16	deca_regs.h	1191;"	d
+LDE_REPC_PCODE_17	deca_regs.h	1192;"	d
+LDE_REPC_PCODE_18	deca_regs.h	1193;"	d
+LDE_REPC_PCODE_19	deca_regs.h	1194;"	d
+LDE_REPC_PCODE_2	deca_regs.h	1177;"	d
+LDE_REPC_PCODE_20	deca_regs.h	1195;"	d
+LDE_REPC_PCODE_21	deca_regs.h	1196;"	d
+LDE_REPC_PCODE_22	deca_regs.h	1197;"	d
+LDE_REPC_PCODE_23	deca_regs.h	1198;"	d
+LDE_REPC_PCODE_24	deca_regs.h	1199;"	d
+LDE_REPC_PCODE_3	deca_regs.h	1178;"	d
+LDE_REPC_PCODE_4	deca_regs.h	1179;"	d
+LDE_REPC_PCODE_5	deca_regs.h	1180;"	d
+LDE_REPC_PCODE_6	deca_regs.h	1181;"	d
+LDE_REPC_PCODE_7	deca_regs.h	1182;"	d
+LDE_REPC_PCODE_8	deca_regs.h	1183;"	d
+LDE_REPC_PCODE_9	deca_regs.h	1184;"	d
+LDE_RXANTD_LEN	deca_regs.h	1169;"	d
+LDE_RXANTD_OFFSET	deca_regs.h	1168;"	d
+LDE_THRESH_LEN	deca_regs.h	1155;"	d
+LDE_THRESH_OFFSET	deca_regs.h	1154;"	d
+LDOTUNE	deca_regs.h	957;"	d
+LDOTUNE_ADDRESS	deca_device.c	178;"	d	file:
+LDOTUNE_DEFAULT	deca_regs.h	958;"	d
+LED_OFF	gpio_core.h	8;"	d
+LED_ON	gpio_core.h	9;"	d
+LOTID_ADDRESS	deca_device.c	180;"	d	file:
+MASTER_EVENT_DUMP	master_core.h	/^    MASTER_EVENT_DUMP,$/;"	e	enum:__anon3
+MASTER_EVENT_SNTP	master_core.h	/^    MASTER_EVENT_SNTP = 0,$/;"	e	enum:__anon3
+MAX_AGE_PARTIAL_PAGE_BEFORE_UPLOAD_HOURS	emit_core.h	13;"	d
+MAX_TIME	time_core.h	8;"	d
+MAX_USER_DATA_LEN	ble_core.h	25;"	d
+MAX_USER_DATA_LEN	ble_core.h	9;"	d
+MAX_VALID_ID	flash_core.h	28;"	d
+MAX_VALID_PAGE	flash_core.h	20;"	d
+MESSAGE_QUEUE_DEPTH	trace_core.h	11;"	d
+MIXER_GAIN_STEP	deca_param_types.h	60;"	d
+MIX_DA_FACTOR	deca_param_types.h	63;"	d
+MVOLT_TO_SAR_VBAT_CONV	deca_param_types.h	58;"	d
+NULL	deca_types.h	63;"	d
+NULL_STATE	state_core.h	96;"	d
+NUM_BR	deca_param_types.h	20;"	d
+NUM_BW	deca_param_types.h	23;"	d
+NUM_CH	deca_param_types.h	25;"	d
+NUM_CH_SUPPORTED	deca_param_types.h	26;"	d
+NUM_PACS	deca_param_types.h	22;"	d
+NUM_PRF	deca_param_types.h	21;"	d
+NUM_SFD	deca_param_types.h	24;"	d
+N_STD_FACTOR	deca_param_types.h	66;"	d
+OFFSET_TO_FIRST_INCIDENCE_DATA	flash_core.h	13;"	d
+OTP_ADDR	deca_regs.h	1110;"	d
+OTP_ADDR_LEN	deca_regs.h	1111;"	d
+OTP_ADDR_MASK	deca_regs.h	1112;"	d
+OTP_CTRL	deca_regs.h	1114;"	d
+OTP_CTRL_LDELOAD	deca_regs.h	1119;"	d
+OTP_CTRL_LEN	deca_regs.h	1115;"	d
+OTP_CTRL_MASK	deca_regs.h	1116;"	d
+OTP_CTRL_OTPPROG	deca_regs.h	1120;"	d
+OTP_CTRL_OTPRDEN	deca_regs.h	1117;"	d
+OTP_CTRL_OTPREAD	deca_regs.h	1118;"	d
+OTP_IF_ID	deca_regs.h	1104;"	d
+OTP_IF_LEN	deca_regs.h	1105;"	d
+OTP_RDAT	deca_regs.h	1128;"	d
+OTP_RDAT_LEN	deca_regs.h	1129;"	d
+OTP_SF	deca_regs.h	1134;"	d
+OTP_SF_LDO_KICK	deca_regs.h	1138;"	d
+OTP_SF_LEN	deca_regs.h	1135;"	d
+OTP_SF_MASK	deca_regs.h	1136;"	d
+OTP_SF_OPS_KICK	deca_regs.h	1137;"	d
+OTP_SF_OPS_SEL_L64	deca_regs.h	1141;"	d
+OTP_SF_OPS_SEL_MASK	deca_regs.h	1140;"	d
+OTP_SF_OPS_SEL_SHFT	deca_regs.h	1139;"	d
+OTP_SF_OPS_SEL_TIGHT	deca_regs.h	1142;"	d
+OTP_SRDAT	deca_regs.h	1131;"	d
+OTP_SRDAT_LEN	deca_regs.h	1132;"	d
+OTP_STAT	deca_regs.h	1122;"	d
+OTP_STAT_LEN	deca_regs.h	1123;"	d
+OTP_STAT_MASK	deca_regs.h	1124;"	d
+OTP_STAT_OTPPRGD	deca_regs.h	1125;"	d
+OTP_STAT_OTPVPOK	deca_regs.h	1126;"	d
+OTP_WDAT	deca_regs.h	1107;"	d
+OTP_WDAT_LEN	deca_regs.h	1108;"	d
+OVER	deca_device_api.h	/^    uint16 OVER ;                   \/\/number of receiver overflows (used in double buffer mode)$/;"	m	struct:__anon11
+PACKETS_IN_PAGE	flash_core.h	17;"	d
+PAGE_FINISHED_UPLOAD	flash_core.h	35;"	d
+PAGE_HEADER_MAGIC	flash_core.h	24;"	d
+PAGE_HEADER_MAGIC_EMTPY	flash_core.h	26;"	d
+PAGE_NORMAL_ENTRY_MAGIC	flash_core.h	25;"	d
+PANADR_ID	deca_regs.h	45;"	d
+PANADR_LEN	deca_regs.h	46;"	d
+PANADR_PAN_ID_MASK	deca_regs.h	51;"	d
+PANADR_PAN_ID_OFFSET	deca_regs.h	50;"	d
+PANADR_SHORT_ADDR_MASK	deca_regs.h	49;"	d
+PANADR_SHORT_ADDR_OFFSET	deca_regs.h	48;"	d
+PARTID_ADDRESS	deca_device.c	179;"	d	file:
+PCODES	deca_param_types.h	27;"	d
+PEAK_MULTPLIER	deca_param_types.h	65;"	d
+PGdly	deca_device_api.h	/^    uint8   PGdly;$/;"	m	struct:__anon9
+PHE	deca_device_api.h	/^    uint16 PHE ;                    \/\/number of received header errors$/;"	m	struct:__anon11
+PMSC_CTRL0_FACE	deca_regs.h	1316;"	d
+PMSC_CTRL0_GPCE	deca_regs.h	1317;"	d
+PMSC_CTRL0_GPDCE	deca_regs.h	1319;"	d
+PMSC_CTRL0_GPDRN	deca_regs.h	1320;"	d
+PMSC_CTRL0_GPRN	deca_regs.h	1318;"	d
+PMSC_CTRL0_KHZCLEN	deca_regs.h	1321;"	d
+PMSC_CTRL0_LEN	deca_regs.h	1303;"	d
+PMSC_CTRL0_MASK	deca_regs.h	1304;"	d
+PMSC_CTRL0_OFFSET	deca_regs.h	1302;"	d
+PMSC_CTRL0_PLL2_SEQ_EN	deca_regs.h	1322;"	d
+PMSC_CTRL0_RESET_ALL	deca_regs.h	1324;"	d
+PMSC_CTRL0_RESET_CLEAR	deca_regs.h	1326;"	d
+PMSC_CTRL0_RESET_RX	deca_regs.h	1325;"	d
+PMSC_CTRL0_RXCLKS_125M	deca_regs.h	1310;"	d
+PMSC_CTRL0_RXCLKS_19M	deca_regs.h	1309;"	d
+PMSC_CTRL0_RXCLKS_AUTO	deca_regs.h	1308;"	d
+PMSC_CTRL0_RXCLKS_OFF	deca_regs.h	1311;"	d
+PMSC_CTRL0_SOFTRESET_OFFSET	deca_regs.h	1323;"	d
+PMSC_CTRL0_SYSCLKS_125M	deca_regs.h	1307;"	d
+PMSC_CTRL0_SYSCLKS_19M	deca_regs.h	1306;"	d
+PMSC_CTRL0_SYSCLKS_AUTO	deca_regs.h	1305;"	d
+PMSC_CTRL0_TXCLKS_125M	deca_regs.h	1314;"	d
+PMSC_CTRL0_TXCLKS_19M	deca_regs.h	1313;"	d
+PMSC_CTRL0_TXCLKS_AUTO	deca_regs.h	1312;"	d
+PMSC_CTRL0_TXCLKS_OFF	deca_regs.h	1315;"	d
+PMSC_CTRL1_ARX2INIT	deca_regs.h	1331;"	d
+PMSC_CTRL1_ARXSLP	deca_regs.h	1333;"	d
+PMSC_CTRL1_ATXSLP	deca_regs.h	1332;"	d
+PMSC_CTRL1_KHZCLKDIV_MASK	deca_regs.h	1338;"	d
+PMSC_CTRL1_LDERUNE	deca_regs.h	1337;"	d
+PMSC_CTRL1_LEN	deca_regs.h	1329;"	d
+PMSC_CTRL1_MASK	deca_regs.h	1330;"	d
+PMSC_CTRL1_OFFSET	deca_regs.h	1328;"	d
+PMSC_CTRL1_PKTSEQ_DISABLE	deca_regs.h	1339;"	d
+PMSC_CTRL1_PKTSEQ_ENABLE	deca_regs.h	1340;"	d
+PMSC_CTRL1_PLLSYN	deca_regs.h	1336;"	d
+PMSC_CTRL1_SNOZE	deca_regs.h	1334;"	d
+PMSC_CTRL1_SNOZR	deca_regs.h	1335;"	d
+PMSC_ID	deca_regs.h	1299;"	d
+PMSC_LEDC_BLINK_NOW_ALL	deca_regs.h	1363;"	d
+PMSC_LEDC_BLINK_TIME_DEF	deca_regs.h	1361;"	d
+PMSC_LEDC_BLINK_TIM_MASK	deca_regs.h	1358;"	d
+PMSC_LEDC_BLNKEN	deca_regs.h	1359;"	d
+PMSC_LEDC_LEN	deca_regs.h	1356;"	d
+PMSC_LEDC_MASK	deca_regs.h	1357;"	d
+PMSC_LEDC_OFFSET	deca_regs.h	1355;"	d
+PMSC_LEN	deca_regs.h	1300;"	d
+PMSC_RES1_OFFSET	deca_regs.h	1342;"	d
+PMSC_RES2_OFFSET	deca_regs.h	1347;"	d
+PMSC_RES3_OFFSET	deca_regs.h	1349;"	d
+PMSC_SNOZT_LEN	deca_regs.h	1345;"	d
+PMSC_SNOZT_OFFSET	deca_regs.h	1344;"	d
+PMSC_TXFINESEQ_DISABLE	deca_regs.h	1352;"	d
+PMSC_TXFINESEQ_ENABLE	deca_regs.h	1353;"	d
+PMSC_TXFINESEQ_OFFSET	deca_regs.h	1351;"	d
+POLL_RX_TO_RESP_TX_DLY_UUS	ss_resp_main.c	55;"	d	file:
+POLL_TX_TO_RESP_RX_DLY_UUS	ss_twr_init.c	258;"	d	file:
+PRE_TIMEOUT	ss_twr_init.c	255;"	d	file:
+PTO	deca_device_api.h	/^    uint16 PTO ;                    \/\/Preamble timeouts$/;"	m	struct:__anon11
+READ_ACC_OFF	deca_device.c	32;"	d	file:
+READ_ACC_ON	deca_device.c	31;"	d	file:
+RED_PIN	gpio_core.h	15;"	d
+REG_05_ID_RESERVED	deca_regs.h	56;"	d
+REG_07_ID_RESERVED	deca_regs.h	108;"	d
+REG_0B_ID_RESERVED	deca_regs.h	170;"	d
+REG_16_ID_RESERVED	deca_regs.h	441;"	d
+REG_1B_ID_RESERVED	deca_regs.h	496;"	d
+REG_1C_ID_RESERVED	deca_regs.h	497;"	d
+REG_20_ID_RESERVED	deca_regs.h	576;"	d
+REG_22_ID_RESERVED	deca_regs.h	592;"	d
+REG_29_ID_RESERVED	deca_regs.h	963;"	d
+REG_30_ID_RESERVED	deca_regs.h	1284;"	d
+REG_32_ID_RESERVED	deca_regs.h	1291;"	d
+REG_33_ID_RESERVED	deca_regs.h	1292;"	d
+REG_34_ID_RESERVED	deca_regs.h	1293;"	d
+REG_35_ID_RESERVED	deca_regs.h	1294;"	d
+REG_37_ID_RESERVED	deca_regs.h	1369;"	d
+REG_38_ID_RESERVED	deca_regs.h	1370;"	d
+REG_39_ID_RESERVED	deca_regs.h	1371;"	d
+REG_3A_ID_RESERVED	deca_regs.h	1372;"	d
+REG_3B_ID_RESERVED	deca_regs.h	1373;"	d
+REG_3C_ID_RESERVED	deca_regs.h	1374;"	d
+REG_3D_ID_RESERVED	deca_regs.h	1375;"	d
+REG_3E_ID_RESERVED	deca_regs.h	1376;"	d
+REG_3F_ID_RESERVED	deca_regs.h	1377;"	d
+RESP_MSG_POLL_RX_TS_IDX	ss_resp_main.c	32;"	d	file:
+RESP_MSG_POLL_RX_TS_IDX	ss_twr_init.c	31;"	d	file:
+RESP_MSG_RESP_TX_TS_IDX	ss_resp_main.c	33;"	d	file:
+RESP_MSG_RESP_TX_TS_IDX	ss_twr_init.c	32;"	d	file:
+RESP_MSG_TS_LEN	ss_resp_main.c	34;"	d	file:
+RESP_MSG_TS_LEN	ss_twr_init.c	33;"	d	file:
+RESP_TX_TO_FINAL_RX_DLY_UUS	ss_resp_main.c	58;"	d	file:
+RF_CONF_ID	deca_regs.h	927;"	d
+RF_CONF_LEN	deca_regs.h	928;"	d
+RF_CONF_PGMIXBIASEN_MASK	deca_regs.h	933;"	d
+RF_CONF_PLLEN_MASK	deca_regs.h	932;"	d
+RF_CONF_RXEN_MASK	deca_regs.h	930;"	d
+RF_CONF_TXALLEN_MASK	deca_regs.h	936;"	d
+RF_CONF_TXBLOCKSEN_MASK	deca_regs.h	934;"	d
+RF_CONF_TXEN_MASK	deca_regs.h	929;"	d
+RF_CONF_TXPLLPOWEN_MASK	deca_regs.h	935;"	d
+RF_CONF_TXPOW_MASK	deca_regs.h	931;"	d
+RF_RXCTRLH_LEN	deca_regs.h	939;"	d
+RF_RXCTRLH_NBW	deca_regs.h	940;"	d
+RF_RXCTRLH_OFFSET	deca_regs.h	938;"	d
+RF_RXCTRLH_WBW	deca_regs.h	941;"	d
+RF_STATUS_OFFSET	deca_regs.h	955;"	d
+RF_TXCTRL_CH1	deca_regs.h	947;"	d
+RF_TXCTRL_CH2	deca_regs.h	948;"	d
+RF_TXCTRL_CH3	deca_regs.h	949;"	d
+RF_TXCTRL_CH4	deca_regs.h	950;"	d
+RF_TXCTRL_CH5	deca_regs.h	951;"	d
+RF_TXCTRL_CH7	deca_regs.h	952;"	d
+RF_TXCTRL_LEN	deca_regs.h	944;"	d
+RF_TXCTRL_OFFSET	deca_regs.h	943;"	d
+RF_TXCTRL_TXMTUNE_MASK	deca_regs.h	945;"	d
+RF_TXCTRL_TXTXMQ_MASK	deca_regs.h	946;"	d
+RNG_DELAY_MS	ss_resp_main.c	20;"	d	file:
+RNG_DELAY_MS	ss_twr_init.c	20;"	d	file:
+RSL	deca_device_api.h	/^    uint16 RSL ;                    \/\/number of received frame sync loss events$/;"	m	struct:__anon11
+RSSI	ble_core.h	/^    int8_t   RSSI;$/;"	m	struct:__anon18
+RSSI	flash_core.h	/^    int8_t   RSSI;$/;"	m	struct:__anon12
+RSSI	trace_core.h	/^    int8_t   RSSI;$/;"	m	struct:__anon21
+RTO	deca_device_api.h	/^    uint16 RTO ;                    \/\/RX frame wait timeouts$/;"	m	struct:__anon11
+RX_ANT_DLY	ss_resp_main.c	17;"	d	file:
+RX_ANT_DLY	ss_twr_init.c	262;"	d	file:
+RX_BUFFER_ID	deca_regs.h	361;"	d
+RX_BUFFER_LEN	deca_regs.h	362;"	d
+RX_BUF_LEN	ss_resp_main.c	42;"	d	file:
+RX_BUF_LEN	ss_twr_init.c	40;"	d	file:
+RX_EQUAL_CIR_MXG_MASK	deca_regs.h	391;"	d
+RX_EQUAL_CIR_MXG_SHIFT	deca_regs.h	392;"	d
+RX_EQUAL_FP_AMPL2_MASK	deca_regs.h	379;"	d
+RX_EQUAL_FP_AMPL2_SHIFT	deca_regs.h	380;"	d
+RX_EQUAL_FP_AMPL3_MASK	deca_regs.h	385;"	d
+RX_EQUAL_FP_AMPL3_SHIFT	deca_regs.h	386;"	d
+RX_EQUAL_STD_NOISE_MASK	deca_regs.h	373;"	d
+RX_EQUAL_STD_NOISE_SHIFT	deca_regs.h	374;"	d
+RX_FINFO_ID	deca_regs.h	318;"	d
+RX_FINFO_LEN	deca_regs.h	320;"	d
+RX_FINFO_MASK_32	deca_regs.h	322;"	d
+RX_FINFO_OFFSET	deca_regs.h	319;"	d
+RX_FINFO_RNG	deca_regs.h	346;"	d
+RX_FINFO_RNG_SHIFT	deca_regs.h	347;"	d
+RX_FINFO_RXBR_110k	deca_regs.h	341;"	d
+RX_FINFO_RXBR_6M	deca_regs.h	343;"	d
+RX_FINFO_RXBR_850k	deca_regs.h	342;"	d
+RX_FINFO_RXBR_MASK	deca_regs.h	340;"	d
+RX_FINFO_RXBR_SHIFT	deca_regs.h	344;"	d
+RX_FINFO_RXFLEN_MASK	deca_regs.h	323;"	d
+RX_FINFO_RXFLE_MASK	deca_regs.h	324;"	d
+RX_FINFO_RXFL_MASK_1023	deca_regs.h	325;"	d
+RX_FINFO_RXNSPL_MASK	deca_regs.h	327;"	d
+RX_FINFO_RXPACC_MASK	deca_regs.h	354;"	d
+RX_FINFO_RXPACC_SHIFT	deca_regs.h	355;"	d
+RX_FINFO_RXPEL_1024	deca_regs.h	335;"	d
+RX_FINFO_RXPEL_128	deca_regs.h	332;"	d
+RX_FINFO_RXPEL_1536	deca_regs.h	336;"	d
+RX_FINFO_RXPEL_2048	deca_regs.h	337;"	d
+RX_FINFO_RXPEL_256	deca_regs.h	333;"	d
+RX_FINFO_RXPEL_4096	deca_regs.h	338;"	d
+RX_FINFO_RXPEL_512	deca_regs.h	334;"	d
+RX_FINFO_RXPEL_64	deca_regs.h	331;"	d
+RX_FINFO_RXPEL_MASK	deca_regs.h	330;"	d
+RX_FINFO_RXPRF_16M	deca_regs.h	350;"	d
+RX_FINFO_RXPRF_64M	deca_regs.h	351;"	d
+RX_FINFO_RXPRF_MASK	deca_regs.h	349;"	d
+RX_FINFO_RXPRF_SHIFT	deca_regs.h	352;"	d
+RX_FINFO_RXPSR_MASK	deca_regs.h	328;"	d
+RX_FQUAL_ID	deca_regs.h	368;"	d
+RX_FQUAL_LEN	deca_regs.h	369;"	d
+RX_FWTO_ID	deca_regs.h	175;"	d
+RX_FWTO_LEN	deca_regs.h	177;"	d
+RX_FWTO_MASK	deca_regs.h	179;"	d
+RX_FWTO_OFFSET	deca_regs.h	176;"	d
+RX_SNIFF_ID	deca_regs.h	503;"	d
+RX_SNIFF_LEN	deca_regs.h	505;"	d
+RX_SNIFF_MASK	deca_regs.h	507;"	d
+RX_SNIFF_OFFSET	deca_regs.h	504;"	d
+RX_SNIFF_SNIFF_OFFT_MASK	deca_regs.h	510;"	d
+RX_SNIFF_SNIFF_ONT_MASK	deca_regs.h	508;"	d
+RX_STAMP_LEN	deca_regs.h	430;"	d
+RX_TIME_FP_AMPL1_OFFSET	deca_regs.h	434;"	d
+RX_TIME_FP_INDEX_OFFSET	deca_regs.h	433;"	d
+RX_TIME_FP_RAWST_OFFSET	deca_regs.h	435;"	d
+RX_TIME_ID	deca_regs.h	427;"	d
+RX_TIME_LLEN	deca_regs.h	428;"	d
+RX_TIME_RX_STAMP_LEN	deca_regs.h	429;"	d
+RX_TIME_RX_STAMP_OFFSET	deca_regs.h	432;"	d
+RX_TTCKI_ID	deca_regs.h	406;"	d
+RX_TTCKI_LEN	deca_regs.h	407;"	d
+RX_TTCKO_ID	deca_regs.h	412;"	d
+RX_TTCKO_LEN	deca_regs.h	413;"	d
+RX_TTCKO_MASK_32	deca_regs.h	415;"	d
+RX_TTCKO_RCPHASE_MASK	deca_regs.h	421;"	d
+RX_TTCKO_RSMPDEL_MASK	deca_regs.h	419;"	d
+RX_TTCKO_RXTOFS_MASK	deca_regs.h	417;"	d
+SAR_TEMP_TO_CELCIUS_CONV	deca_param_types.h	54;"	d
+SAR_VBAT_TO_VOLT_CONV	deca_param_types.h	55;"	d
+SCAN_DURATION_SECONDS	ble_core.h	22;"	d
+SECONDS_IN_HOUR	time_core.h	9;"	d
+SFDTO	deca_device_api.h	/^    uint16 SFDTO ;                  \/\/SFD timeouts$/;"	m	struct:__anon11
+SINGLE_READ	ble_core.h	41;"	d
+SLEEP_PERIOD	emit_core.h	12;"	d
+SNIFF_OFFT_MASK	deca_regs.h	511;"	d
+SNIFF_ONT_MASK	deca_regs.h	509;"	d
+SNTP_TIMEOUT	ble_core.h	38;"	d
+SPARE_FLASH_PAGES_AT_END	flash_core.h	11;"	d
+SPEED_OF_LIGHT	ss_twr_init.c	51;"	d	file:
+SPI_CS	gpio_core.h	17;"	d
+STACK_SIZE_EMIT	emit_core.h	9;"	d
+STACK_SIZE_MASTER	master_core.h	8;"	d
+STACK_SIZE_TRACE_THREAD	trace_core.h	9;"	d
+STALE_TIME_COUNT	time_core.h	15;"	d
+STATE_DONT_LOOP	state_core.h	97;"	d
+STATE_MACHINE_PRIORITY	state_core.h	90;"	d
+STATE_MUTEX_WAIT	state_core.h	95;"	d
+STD_NOISE_MASK	deca_regs.h	375;"	d
+STD_NOISE_SHIFT	deca_regs.h	376;"	d
+SYS_CFG_AACKPEND	deca_regs.h	94;"	d
+SYS_CFG_AUTOACK	deca_regs.h	93;"	d
+SYS_CFG_DIS_DRXB	deca_regs.h	80;"	d
+SYS_CFG_DIS_FCE	deca_regs.h	79;"	d
+SYS_CFG_DIS_PHE	deca_regs.h	81;"	d
+SYS_CFG_DIS_RSDE	deca_regs.h	82;"	d
+SYS_CFG_DIS_STXP	deca_regs.h	88;"	d
+SYS_CFG_FCS_INIT2F	deca_regs.h	83;"	d
+SYS_CFG_FFA4	deca_regs.h	74;"	d
+SYS_CFG_FFA5	deca_regs.h	76;"	d
+SYS_CFG_FFAA	deca_regs.h	71;"	d
+SYS_CFG_FFAB	deca_regs.h	69;"	d
+SYS_CFG_FFAD	deca_regs.h	70;"	d
+SYS_CFG_FFAM	deca_regs.h	72;"	d
+SYS_CFG_FFAR	deca_regs.h	73;"	d
+SYS_CFG_FFBC	deca_regs.h	68;"	d
+SYS_CFG_FFE	deca_regs.h	67;"	d
+SYS_CFG_FF_ALL_EN	deca_regs.h	65;"	d
+SYS_CFG_HIRQ_POL	deca_regs.h	77;"	d
+SYS_CFG_ID	deca_regs.h	61;"	d
+SYS_CFG_LEN	deca_regs.h	62;"	d
+SYS_CFG_MASK	deca_regs.h	64;"	d
+SYS_CFG_PHR_MODE_00	deca_regs.h	86;"	d
+SYS_CFG_PHR_MODE_11	deca_regs.h	87;"	d
+SYS_CFG_PHR_MODE_SHFT	deca_regs.h	85;"	d
+SYS_CFG_RXAUTR	deca_regs.h	92;"	d
+SYS_CFG_RXM110K	deca_regs.h	89;"	d
+SYS_CFG_RXWTOE	deca_regs.h	91;"	d
+SYS_CFG_SPI_EDGE	deca_regs.h	78;"	d
+SYS_CTRL_CANSFCS	deca_regs.h	193;"	d
+SYS_CTRL_HRBT	deca_regs.h	202;"	d
+SYS_CTRL_HRBT_OFFSET	deca_regs.h	203;"	d
+SYS_CTRL_HSRBTOGGLE	deca_regs.h	201;"	d
+SYS_CTRL_ID	deca_regs.h	184;"	d
+SYS_CTRL_LEN	deca_regs.h	186;"	d
+SYS_CTRL_MASK_32	deca_regs.h	188;"	d
+SYS_CTRL_OFFSET	deca_regs.h	185;"	d
+SYS_CTRL_RXDLYE	deca_regs.h	198;"	d
+SYS_CTRL_RXENAB	deca_regs.h	197;"	d
+SYS_CTRL_SFCST	deca_regs.h	190;"	d
+SYS_CTRL_TRXOFF	deca_regs.h	194;"	d
+SYS_CTRL_TXDLYS	deca_regs.h	192;"	d
+SYS_CTRL_TXSTRT	deca_regs.h	191;"	d
+SYS_CTRL_WAIT4RESP	deca_regs.h	195;"	d
+SYS_MASK_ID	deca_regs.h	208;"	d
+SYS_MASK_LEN	deca_regs.h	209;"	d
+SYS_MASK_MAAT	deca_regs.h	215;"	d
+SYS_MASK_MAFFREJ	deca_regs.h	243;"	d
+SYS_MASK_MASK_32	deca_regs.h	211;"	d
+SYS_MASK_MCPLLLL	deca_regs.h	239;"	d
+SYS_MASK_MCPLOCK	deca_regs.h	213;"	d
+SYS_MASK_MESYNCR	deca_regs.h	214;"	d
+SYS_MASK_MGPIOIRQ	deca_regs.h	235;"	d
+SYS_MASK_MHPDWARN	deca_regs.h	241;"	d
+SYS_MASK_MLDEDONE	deca_regs.h	223;"	d
+SYS_MASK_MLDEERR	deca_regs.h	232;"	d
+SYS_MASK_MRFPLLLL	deca_regs.h	238;"	d
+SYS_MASK_MRXDFR	deca_regs.h	226;"	d
+SYS_MASK_MRXFCE	deca_regs.h	228;"	d
+SYS_MASK_MRXFCG	deca_regs.h	227;"	d
+SYS_MASK_MRXOVRR	deca_regs.h	233;"	d
+SYS_MASK_MRXPHD	deca_regs.h	224;"	d
+SYS_MASK_MRXPHE	deca_regs.h	225;"	d
+SYS_MASK_MRXPRD	deca_regs.h	221;"	d
+SYS_MASK_MRXPTO	deca_regs.h	234;"	d
+SYS_MASK_MRXRFSL	deca_regs.h	230;"	d
+SYS_MASK_MRXRFTO	deca_regs.h	231;"	d
+SYS_MASK_MRXSFDD	deca_regs.h	222;"	d
+SYS_MASK_MRXSFDTO	deca_regs.h	240;"	d
+SYS_MASK_MSLP2INIT	deca_regs.h	236;"	d
+SYS_MASK_MTXBERR	deca_regs.h	242;"	d
+SYS_MASK_MTXFRB	deca_regs.h	216;"	d
+SYS_MASK_MTXFRS	deca_regs.h	219;"	d
+SYS_MASK_MTXPHS	deca_regs.h	218;"	d
+SYS_MASK_MTXPRS	deca_regs.h	217;"	d
+SYS_STATE_ID	deca_regs.h	473;"	d
+SYS_STATE_LEN	deca_regs.h	474;"	d
+SYS_STATUS_AAT	deca_regs.h	257;"	d
+SYS_STATUS_AFFREJ	deca_regs.h	286;"	d
+SYS_STATUS_ALL_DBLBUFF	deca_regs.h	301;"	d
+SYS_STATUS_ALL_RX_ERR	deca_regs.h	304;"	d
+SYS_STATUS_ALL_RX_GOOD	deca_regs.h	297;"	d
+SYS_STATUS_ALL_RX_TO	deca_regs.h	308;"	d
+SYS_STATUS_ALL_TX	deca_regs.h	311;"	d
+SYS_STATUS_CLKPLL_LL	deca_regs.h	282;"	d
+SYS_STATUS_CPLOCK	deca_regs.h	255;"	d
+SYS_STATUS_ESYNCR	deca_regs.h	256;"	d
+SYS_STATUS_GPIOIRQ	deca_regs.h	278;"	d
+SYS_STATUS_HPDWARN	deca_regs.h	284;"	d
+SYS_STATUS_HSRBP	deca_regs.h	287;"	d
+SYS_STATUS_ICRBP	deca_regs.h	288;"	d
+SYS_STATUS_ID	deca_regs.h	248;"	d
+SYS_STATUS_IRQS	deca_regs.h	254;"	d
+SYS_STATUS_LDEDONE	deca_regs.h	265;"	d
+SYS_STATUS_LDEERR	deca_regs.h	274;"	d
+SYS_STATUS_LEN	deca_regs.h	250;"	d
+SYS_STATUS_MASK_32	deca_regs.h	252;"	d
+SYS_STATUS_OFFSET	deca_regs.h	249;"	d
+SYS_STATUS_RFPLL_LL	deca_regs.h	281;"	d
+SYS_STATUS_RXDFR	deca_regs.h	268;"	d
+SYS_STATUS_RXFCE	deca_regs.h	270;"	d
+SYS_STATUS_RXFCG	deca_regs.h	269;"	d
+SYS_STATUS_RXOVRR	deca_regs.h	276;"	d
+SYS_STATUS_RXPHD	deca_regs.h	266;"	d
+SYS_STATUS_RXPHE	deca_regs.h	267;"	d
+SYS_STATUS_RXPRD	deca_regs.h	263;"	d
+SYS_STATUS_RXPREJ	deca_regs.h	291;"	d
+SYS_STATUS_RXPTO	deca_regs.h	277;"	d
+SYS_STATUS_RXRFSL	deca_regs.h	272;"	d
+SYS_STATUS_RXRFTO	deca_regs.h	273;"	d
+SYS_STATUS_RXRSCS	deca_regs.h	290;"	d
+SYS_STATUS_RXSFDD	deca_regs.h	264;"	d
+SYS_STATUS_RXSFDTO	deca_regs.h	283;"	d
+SYS_STATUS_SLP2INIT	deca_regs.h	279;"	d
+SYS_STATUS_TXBERR	deca_regs.h	285;"	d
+SYS_STATUS_TXERR	deca_regs.h	294;"	d
+SYS_STATUS_TXFRB	deca_regs.h	258;"	d
+SYS_STATUS_TXFRS	deca_regs.h	261;"	d
+SYS_STATUS_TXPHS	deca_regs.h	260;"	d
+SYS_STATUS_TXPRS	deca_regs.h	259;"	d
+SYS_STATUS_TXPUTE	deca_regs.h	292;"	d
+SYS_STATUS_reserved	deca_regs.h	275;"	d
+SYS_TIME_ID	deca_regs.h	100;"	d
+SYS_TIME_LEN	deca_regs.h	102;"	d
+SYS_TIME_OFFSET	deca_regs.h	101;"	d
+TAG	ble_core.c	/^static const char TAG[] = "BLE_CORE";$/;"	v	file:
+TAG	emit_core.c	/^static const char TAG[] = "EMIT_CORE";$/;"	v	file:
+TAG	flash_core.c	/^static const char     TAG[] = "FLASH_CORE";$/;"	v	file:
+TAG	fota_core.c	/^static const char TAG[] = "FOTA_CORE";$/;"	v	file:
+TAG	gpio_core.c	/^static const char TAG[] = "GPIO_CORE";$/;"	v	file:
+TAG	main.c	/^static const char TAG[] = "MAIN";$/;"	v	file:
+TAG	master_core.c	/^static const char TAG[] = "MASTER_CORE";$/;"	v	file:
+TAG	rx_core.c	/^static const char TAG[] = "RX_CORE";$/;"	v	file:
+TAG	signals_core.c	/^static const char TAG[] = "SYNC_CORE";$/;"	v	file:
+TAG	spi_core.c	/^static const char TAG[] = "SPI_CORE";$/;"	v	file:
+TAG	ss_resp_main.c	/^static const char TAG[] = "UWB_INIT_CORE";$/;"	v	file:
+TAG	ss_twr_init.c	/^static const char TAG[] = "UWB_INIT_CORE";$/;"	v	file:
+TAG	state_core.c	/^static const char        TAG[] = "STATE_CORE";$/;"	v	file:
+TAG	time_core.c	/^static const char TAG[] = "TIME_CORE";$/;"	v	file:
+TAG	trace_core.c	/^static const char     TAG[] = "TRACE_CORE";$/;"	v	file:
+TAG	tx_core.c	/^static const char TAG[] = "TX_CORE";$/;"	v	file:
+TAG	upload_shim.c	/^static const char TAG[] = "UPLOAD_SHIM";$/;"	v	file:
+TAG	uwb_core.c	/^static const char TAG[] = "UWB_CORE";$/;"	v	file:
+TASK_DELAY	ss_twr_init.c	267;"	d	file:
+TC_PGCAL_STATUS_DELAY_MASK	deca_regs.h	988;"	d
+TC_PGCAL_STATUS_LEN	deca_regs.h	987;"	d
+TC_PGCAL_STATUS_OFFSET	deca_regs.h	986;"	d
+TC_PGCCTRL_AUTOCAL	deca_regs.h	981;"	d
+TC_PGCCTRL_CALSTART	deca_regs.h	980;"	d
+TC_PGCCTRL_DIR_CONV	deca_regs.h	984;"	d
+TC_PGCCTRL_LEN	deca_regs.h	979;"	d
+TC_PGCCTRL_OFFSET	deca_regs.h	978;"	d
+TC_PGCCTRL_ON_TX	deca_regs.h	983;"	d
+TC_PGCCTRL_TMEAS_MASK	deca_regs.h	982;"	d
+TC_PGDELAY_CH1	deca_regs.h	993;"	d
+TC_PGDELAY_CH2	deca_regs.h	994;"	d
+TC_PGDELAY_CH3	deca_regs.h	995;"	d
+TC_PGDELAY_CH4	deca_regs.h	996;"	d
+TC_PGDELAY_CH5	deca_regs.h	997;"	d
+TC_PGDELAY_CH7	deca_regs.h	998;"	d
+TC_PGDELAY_LEN	deca_regs.h	992;"	d
+TC_PGDELAY_OFFSET	deca_regs.h	991;"	d
+TC_PGTEST_CW	deca_regs.h	1003;"	d
+TC_PGTEST_LEN	deca_regs.h	1001;"	d
+TC_PGTEST_NORMAL	deca_regs.h	1002;"	d
+TC_PGTEST_OFFSET	deca_regs.h	1000;"	d
+TC_SARL_SAR_C	deca_regs.h	972;"	d
+TC_SARL_SAR_LTEMP_OFFSET	deca_regs.h	974;"	d
+TC_SARL_SAR_LVBAT_OFFSET	deca_regs.h	973;"	d
+TC_SARW_SAR_WTEMP_OFFSET	deca_regs.h	975;"	d
+TC_SARW_SAR_WVBAT_OFFSET	deca_regs.h	976;"	d
+TEMP_COMP_FACTOR_CH2	deca_param_types.h	52;"	d
+TEMP_COMP_FACTOR_CH5	deca_param_types.h	53;"	d
+TIMER_PERIOD	ss_twr_init.c	268;"	d	file:
+TIME_BEFORE_DUMP_IN_SECS	trace_core.h	15;"	d
+TIME_BETWEEN_ADVERTISE_CYCLES	time_core.h	18;"	d
+TOTAL_NUMBER_OF_EVENTS	signals_core.h	8;"	d
+TOTAL_PAGES_FOR_INCIDENCE_DATA	flash_core.h	14;"	d
+TRACE_LOOP_TIME	trace_core.h	14;"	d
+TRACE_PACKET_BUFFER_SIZE	trace_core.h	13;"	d
+TRACE_PRIORITY	trace_core.h	10;"	d
+TXF	deca_device_api.h	/^    uint16 TXF ;                    \/\/number of transmitted frames$/;"	m	struct:__anon11
+TXW	deca_device_api.h	/^    uint16 TXW ;                    \/\/power up warn$/;"	m	struct:__anon11
+TX_ANTD_ID	deca_regs.h	461;"	d
+TX_ANTD_LEN	deca_regs.h	463;"	d
+TX_ANTD_OFFSET	deca_regs.h	462;"	d
+TX_ANT_DLY	ss_resp_main.c	16;"	d	file:
+TX_ANT_DLY	ss_twr_init.c	261;"	d	file:
+TX_BUFFER_ID	deca_regs.h	158;"	d
+TX_BUFFER_LEN	deca_regs.h	159;"	d
+TX_CAL_ID	deca_regs.h	969;"	d
+TX_CAL_LEN	deca_regs.h	970;"	d
+TX_DELAY_MS	tx_core.c	41;"	d	file:
+TX_FCTRL_FLE_MASK	deca_regs.h	118;"	d
+TX_FCTRL_ID	deca_regs.h	113;"	d
+TX_FCTRL_IFSDELAY_MASK	deca_regs.h	153;"	d
+TX_FCTRL_LEN	deca_regs.h	114;"	d
+TX_FCTRL_PE_MASK	deca_regs.h	122;"	d
+TX_FCTRL_PE_SHFT	deca_regs.h	139;"	d
+TX_FCTRL_SAFE_MASK_32	deca_regs.h	124;"	d
+TX_FCTRL_TFLEN_MASK	deca_regs.h	116;"	d
+TX_FCTRL_TFLE_MASK	deca_regs.h	117;"	d
+TX_FCTRL_TR	deca_regs.h	131;"	d
+TX_FCTRL_TR_SHFT	deca_regs.h	132;"	d
+TX_FCTRL_TXBOFFS_MASK	deca_regs.h	151;"	d
+TX_FCTRL_TXBOFFS_SHFT	deca_regs.h	150;"	d
+TX_FCTRL_TXBR_110k	deca_regs.h	127;"	d
+TX_FCTRL_TXBR_6M	deca_regs.h	129;"	d
+TX_FCTRL_TXBR_850k	deca_regs.h	128;"	d
+TX_FCTRL_TXBR_MASK	deca_regs.h	119;"	d
+TX_FCTRL_TXBR_SHFT	deca_regs.h	130;"	d
+TX_FCTRL_TXPRF_16M	deca_regs.h	136;"	d
+TX_FCTRL_TXPRF_4M	deca_regs.h	135;"	d
+TX_FCTRL_TXPRF_64M	deca_regs.h	137;"	d
+TX_FCTRL_TXPRF_MASK	deca_regs.h	120;"	d
+TX_FCTRL_TXPRF_SHFT	deca_regs.h	134;"	d
+TX_FCTRL_TXPSR_MASK	deca_regs.h	121;"	d
+TX_FCTRL_TXPSR_PE_1024	deca_regs.h	145;"	d
+TX_FCTRL_TXPSR_PE_128	deca_regs.h	142;"	d
+TX_FCTRL_TXPSR_PE_1536	deca_regs.h	146;"	d
+TX_FCTRL_TXPSR_PE_16	deca_regs.h	140;"	d
+TX_FCTRL_TXPSR_PE_2048	deca_regs.h	147;"	d
+TX_FCTRL_TXPSR_PE_256	deca_regs.h	143;"	d
+TX_FCTRL_TXPSR_PE_4096	deca_regs.h	148;"	d
+TX_FCTRL_TXPSR_PE_512	deca_regs.h	144;"	d
+TX_FCTRL_TXPSR_PE_64	deca_regs.h	141;"	d
+TX_FCTRL_TXPSR_PE_MASK	deca_regs.h	123;"	d
+TX_FCTRL_TXPSR_SHFT	deca_regs.h	138;"	d
+TX_POWER_BOOSTNORM_MASK	deca_regs.h	521;"	d
+TX_POWER_BOOSTNORM_SHIFT	deca_regs.h	523;"	d
+TX_POWER_BOOSTP125_MASK	deca_regs.h	530;"	d
+TX_POWER_BOOSTP125_SHIFT	deca_regs.h	532;"	d
+TX_POWER_BOOSTP250_MASK	deca_regs.h	527;"	d
+TX_POWER_BOOSTP250_SHIFT	deca_regs.h	529;"	d
+TX_POWER_BOOSTP500_MASK	deca_regs.h	524;"	d
+TX_POWER_BOOSTP500_SHIFT	deca_regs.h	526;"	d
+TX_POWER_ID	deca_regs.h	518;"	d
+TX_POWER_LEN	deca_regs.h	519;"	d
+TX_POWER_MAN_DEFAULT	deca_regs.h	534;"	d
+TX_POWER_TXPOWPHR_MASK	deca_regs.h	535;"	d
+TX_POWER_TXPOWSD_MASK	deca_regs.h	536;"	d
+TX_STAMP_LEN	deca_regs.h	450;"	d
+TX_TIME_ID	deca_regs.h	447;"	d
+TX_TIME_LLEN	deca_regs.h	448;"	d
+TX_TIME_TX_RAWST_OFFSET	deca_regs.h	453;"	d
+TX_TIME_TX_STAMP_LEN	deca_regs.h	449;"	d
+TX_TIME_TX_STAMP_OFFSET	deca_regs.h	452;"	d
+UPLOADING_DONE	flash_core.h	37;"	d
+UPLOAD_CHUNKS_IN_PAGE	flash_core.h	32;"	d
+UPLOAD_SIZE_CHUNK	flash_core.h	31;"	d
+USR_SFD_ID	deca_regs.h	582;"	d
+USR_SFD_LEN	deca_regs.h	583;"	d
+UUS_TO_DWT_TIME	ss_resp_main.c	50;"	d	file:
+UUS_TO_DWT_TIME	ss_twr_init.c	48;"	d	file:
+UWB_PACKET_SIZE	uwb_core.h	/^_Static_assert(sizeof(uwb_packet_t) == UWB_PACKET_SIZE, "UWB packet is not 8 bytes long!");$/;"	v
+UWB_PACKET_SIZE	uwb_core.h	7;"	d
+VAL	ble_core.c	/^static char VAL[] = {0,1,2,3,4,5,6,7,8};$/;"	v	file:
+VBAT_ADDRESS	deca_device.c	181;"	d	file:
+VTEMP_ADDRESS	deca_device.c	182;"	d	file:
+V_BUS_DETECT	gpio_core.h	14;"	d
+W4R_TIM_MASK	deca_regs.h	486;"	d
+WAIT_FOR_CONNECTION	signals_core.h	15;"	d
+WAIT_FOR_DISCONNECT	signals_core.h	16;"	d
+WAIT_FOR_SNTP	signals_core.h	17;"	d
+WAIT_FOR_WORKER	signals_core.h	12;"	d
+WAIT_FOR_WRITE	signals_core.h	18;"	d
+WAIT_PERIOD_DUMP	emit_core.h	11;"	d
+WAIT_PERIOD_SNTP	emit_core.h	10;"	d
+WRITE_TIMEOUT	ble_core.h	37;"	d
+XMLPARAMS_VERSION	deca_param_types.h	42;"	d
+XTRIM_ADDRESS	deca_device.c	183;"	d	file:
+_DECA_DEVICE_API_H_	deca_device_api.h	14;"	d
+_DECA_INT16_	deca_device_api.h	51;"	d
+_DECA_INT16_	deca_types.h	50;"	d
+_DECA_INT32_	deca_device_api.h	58;"	d
+_DECA_INT32_	deca_types.h	57;"	d
+_DECA_INT8_	deca_device_api.h	44;"	d
+_DECA_INT8_	deca_types.h	43;"	d
+_DECA_PARAM_TYPES_H_	deca_param_types.h	13;"	d
+_DECA_REGS_H_	deca_regs.h	15;"	d
+_DECA_TYPES_H_	deca_types.h	14;"	d
+_DECA_UINT16_	deca_device_api.h	30;"	d
+_DECA_UINT16_	deca_types.h	29;"	d
+_DECA_UINT32_	deca_device_api.h	37;"	d
+_DECA_UINT32_	deca_types.h	36;"	d
+_DECA_UINT8_	deca_device_api.h	23;"	d
+_DECA_UINT8_	deca_types.h	22;"	d
+_DECA_VERSION_H_	deca_version.h	14;"	d
+_dwt_aonarrayupload	deca_device.c	/^void _dwt_aonarrayupload(void)$/;"	f
+_dwt_aonconfigupload	deca_device.c	/^void _dwt_aonconfigupload(void)$/;"	f
+_dwt_computetxpowersetting	deca_device.c	/^uint32 _dwt_computetxpowersetting(uint32 ref_powerreg, int32 power_adj)$/;"	f
+_dwt_configlde	deca_device.c	/^void _dwt_configlde(int prfIndex)$/;"	f
+_dwt_disablesequencing	deca_device.c	/^void _dwt_disablesequencing(void) \/\/ Disable sequencing and go to state "INIT"$/;"	f
+_dwt_enableclocks	deca_device.c	/^void _dwt_enableclocks(int clocks)$/;"	f
+_dwt_loaducodefromrom	deca_device.c	/^void _dwt_loaducodefromrom(void)$/;"	f
+_dwt_otpprogword32	deca_device.c	/^uint32 _dwt_otpprogword32(uint32 data, uint16 address)$/;"	f
+_dwt_otpread	deca_device.c	/^uint32 _dwt_otpread(uint16 address)$/;"	f
+_dwt_otpsetmrregs	deca_device.c	/^uint32 _dwt_otpsetmrregs(int mode)$/;"	f
+add_event_consumer	state_core.c	/^void add_event_consumer(state_init_s* thread_info) {$/;"	f
+adv_packet_t	ble_core.h	/^}__attribute__((packed)) adv_packet_t;$/;"	t	typeref:struct:__anon18
+advertising_data	ble_core.c	/^static const struct bt_data advertising_data[] = {$/;"	v	typeref:struct:bt_data	file:
+agc_cfg_struct	deca_param_types.h	/^} agc_cfg_struct ;$/;"	t	typeref:struct:__anon1
+agc_config	deca_params_init.c	/^const agc_cfg_struct agc_config =$/;"	v
+ble_advertising_mq	trace_core.c	/^static struct k_msgq ble_advertising_mq; \/\/BLE core writes into this for each new BLE packet it sniffs$/;"	v	typeref:struct:k_msgq	file:
+ble_debug_q	trace_core.c	/^static struct k_msgq ble_debug_q; \/\/Trace core writes into this to upload via ble right to aws, skips flash$/;"	v	typeref:struct:k_msgq	file:
+ble_dump_chunk	ble_core.c	/^int ble_dump_chunk(uint8_t * chunk, size_t len){$/;"	f
+callback_read_network	ble_core.c	/^static uint8_t callback_read_network(struct bt_conn *conn, uint8_t err,$/;"	f	file:
+callback_write_dump	ble_core.c	/^static void callback_write_dump(struct bt_conn *conn, uint8_t err,$/;"	f	file:
+cbData	deca_device.c	/^    dwt_cb_data_t cbData;           \/\/ Callback data structure$/;"	m	struct:__anon4	file:
+cbRxErr	deca_device.c	/^    dwt_cb_t    cbRxErr;            \/\/ Callback for RX error events$/;"	m	struct:__anon4	file:
+cbRxOk	deca_device.c	/^    dwt_cb_t    cbRxOk;             \/\/ Callback for RX good frame event$/;"	m	struct:__anon4	file:
+cbRxTo	deca_device.c	/^    dwt_cb_t    cbRxTo;             \/\/ Callback for RX timeout events$/;"	m	struct:__anon4	file:
+cbTxDone	deca_device.c	/^    dwt_cb_t    cbTxDone;           \/\/ Callback for TX confirmation event$/;"	m	struct:__anon4	file:
+chan	deca_device_api.h	/^    uint8 chan ;           \/\/!< channel number {1, 2, 3, 4, 5, 7 }$/;"	m	struct:__anon8
+chan_idx	deca_params_init.c	/^const uint8 chan_idx[NUM_CH_SUPPORTED] = {0, 0, 1, 2, 3, 4, 0, 5};$/;"	v
+cleanup_ptr	state_core.h	/^typedef void (*cleanup_ptr)(void);$/;"	t
+config	rx_core.c	/^static dwt_config_t config = {$/;"	v	file:
+config	ss_resp_main.c	/^static dwt_config_t config = {$/;"	v	file:
+config	ss_twr_init.c	/^static dwt_config_t config = {$/;"	v	file:
+config	tx_core.c	/^static dwt_config_t config = {$/;"	v	file:
+config_pins	gpio_core.c	/^static int config_pins(){$/;"	f	file:
+conn_callbacks	ble_core.c	/^static struct bt_conn_cb conn_callbacks = { $/;"	v	typeref:struct:bt_conn_cb	file:
+connect_core_device	ble_core.c	/^int connect_core_device(){$/;"	f
+connected	ble_core.c	/^static void connected(struct bt_conn *conn, uint8_t err) {$/;"	f	file:
+connection_cleanup	ble_core.c	/^void connection_cleanup(){$/;"	f
+consumer_sem	state_core.c	/^K_MUTEX_DEFINE(consumer_sem);$/;"	v
+counts	flash_core.h	/^    uint8_t  counts;$/;"	m	struct:__anon12
+counts	trace_core.h	/^    uint8_t  counts;$/;"	m	struct:__anon21
+curr	flash_core.c	/^static flash_curr_t   curr;$/;"	v	file:
+current_id	flash_core.h	/^  uint32_t current_id;$/;"	m	struct:__anon15
+current_valid_packet_in_page	flash_core.h	/^  uint16_t current_valid_packet_in_page;$/;"	m	struct:__anon15
+current_valid_page	flash_core.h	/^  uint16_t current_valid_page;$/;"	m	struct:__anon15
+dataRate	deca_device_api.h	/^    uint8 dataRate ;       \/\/!< Data Rate {DWT_BR_110K, DWT_BR_850K or DWT_BR_6M8}$/;"	m	struct:__anon8
+data_cb	ble_core.c	/^static bool data_cb(struct bt_data *data, void *user_data) {$/;"	f	file:
+datalength	deca_device_api.h	/^    uint16 datalength;  \/\/length of frame$/;"	m	struct:__anon7
+dblbuffon	deca_device.c	/^    uint8       dblbuffon;          \/\/ Double RX buffer mode flag$/;"	m	struct:__anon4	file:
+decaIrqStatus_t	deca_device_api.h	/^typedef int decaIrqStatus_t ; \/\/ Type for remembering IRQ status$/;"	t
+deca_sleep	deca_device.c	/^void deca_sleep(unsigned int time_ms){$/;"	f
+decamutexoff	spi_core.c	/^void decamutexoff(decaIrqStatus_t stat){$/;"	f
+decamutexon	spi_core.c	/^decaIrqStatus_t decamutexon(void){$/;"	f
+dev	gpio_core.c	/^static const struct device *dev;$/;"	v	typeref:struct:device	file:
+digital_bb_config	deca_params_init.c	/^const uint32 digital_bb_config[NUM_PRF][NUM_PACS] =$/;"	v
+disconnect_remote	ble_core.c	/^static void disconnect_remote(){$/;"	f	file:
+disconnected	ble_core.c	/^static void disconnected(struct bt_conn *conn, uint8_t reason)$/;"	f	file:
+discover_func	ble_core.c	/^static uint8_t discover_func(struct bt_conn *conn,$/;"	f	file:
+discover_params	ble_core.c	/^static struct bt_gatt_discover_params discover_params;$/;"	v	typeref:struct:bt_gatt_discover_params	file:
+distance	ss_twr_init.c	/^static double distance;$/;"	v	file:
+distance_cm	trace_core.h	/^    uint16_t distance_cm;$/;"	m	struct:__anon21
+distance_uwb	flash_core.h	/^      uint32_t distance_uwb; \/\/ Only valid for readings$/;"	m	union:__anon12::__anon13
+distance_uwb	uwb_core.h	/^    uint32_t distance_uwb;$/;"	m	struct:__anon20
+drop_header_packet	flash_core.c	/^static void drop_header_packet(){$/;"	f	file:
+dtune1	deca_params_init.c	/^const uint16 dtune1[NUM_PRF] =$/;"	v
+dump	ble_core.h	/^  uint16_t dump;$/;"	m	struct:__anon19
+dump_ble_debug	trace_core.c	/^void dump_ble_debug(trace_packet_t * trace){$/;"	f
+dw1000local	deca_device.c	/^static dwt_local_data_t dw1000local[DWT_NUM_DW_DEV] ; \/\/ Static local device data, can be an array to support multiple DW1000 testing applications\/platforms$/;"	v	file:
+dwnsSFDlen	deca_params_init.c	/^const uint8 dwnsSFDlen[NUM_BR] =$/;"	v
+dwt_apiversion	deca_device.c	/^int32 dwt_apiversion(void)$/;"	f
+dwt_calcbandwidthtempadj	deca_device.c	/^uint32 dwt_calcbandwidthtempadj(uint16 target_count)$/;"	f
+dwt_calcpgcount	deca_device.c	/^uint16 dwt_calcpgcount(uint8 pgdly)$/;"	f
+dwt_calcpowertempadj	deca_device.c	/^ uint32 dwt_calcpowertempadj(uint8 channel, uint32 ref_powerreg, int delta_temp)$/;"	f
+dwt_calibratesleepcnt	deca_device.c	/^uint16 dwt_calibratesleepcnt(void)$/;"	f
+dwt_cb_data_t	deca_device_api.h	/^} dwt_cb_data_t;$/;"	t	typeref:struct:__anon7
+dwt_cb_t	deca_device_api.h	/^typedef void (*dwt_cb_t)(const dwt_cb_data_t *);$/;"	t
+dwt_checkirq	deca_device.c	/^uint8 dwt_checkirq(void)$/;"	f
+dwt_config_t	deca_device_api.h	/^} dwt_config_t ;$/;"	t	typeref:struct:__anon8
+dwt_configcontinuousframemode	deca_device.c	/^void dwt_configcontinuousframemode(uint32 framerepetitionrate)$/;"	f
+dwt_configcwmode	deca_device.c	/^void dwt_configcwmode(uint8 chan)$/;"	f
+dwt_configeventcounters	deca_device.c	/^void dwt_configeventcounters(int enable)$/;"	f
+dwt_configure	deca_device.c	/^void dwt_configure(dwt_config_t *config)$/;"	f
+dwt_configurefor64plen	deca_device.c	/^void dwt_configurefor64plen(int prf)$/;"	f
+dwt_configuresleep	deca_device.c	/^void dwt_configuresleep(uint16 mode, uint8 wake)$/;"	f
+dwt_configuresleepcnt	deca_device.c	/^void dwt_configuresleepcnt(uint16 sleepcnt)$/;"	f
+dwt_configuretxrf	deca_device.c	/^void dwt_configuretxrf(dwt_txconfig_t *config)$/;"	f
+dwt_convertdegtemptoraw	deca_device.c	/^uint8 dwt_convertdegtemptoraw(int16 externaltemp)$/;"	f
+dwt_convertrawtemperature	deca_device.c	/^float dwt_convertrawtemperature(uint8 raw_temp)$/;"	f
+dwt_convertrawvoltage	deca_device.c	/^float dwt_convertrawvoltage(uint8 raw_voltage)$/;"	f
+dwt_convertvoltstoraw	deca_device.c	/^uint8 dwt_convertvoltstoraw(int32 externalmvolt)$/;"	f
+dwt_deviceentcnts_t	deca_device_api.h	/^} dwt_deviceentcnts_t ;$/;"	t	typeref:struct:__anon11
+dwt_enableautoack	deca_device.c	/^void dwt_enableautoack(uint8 responseDelayTime)$/;"	f
+dwt_enableframefilter	deca_device.c	/^void dwt_enableframefilter(uint16 enable)$/;"	f
+dwt_enablegpioclocks	deca_device.c	/^void dwt_enablegpioclocks(void)$/;"	f
+dwt_entersleep	deca_device.c	/^void dwt_entersleep(void)$/;"	f
+dwt_entersleepaftertx	deca_device.c	/^void dwt_entersleepaftertx(int enable)$/;"	f
+dwt_forcetrxoff	deca_device.c	/^void dwt_forcetrxoff(void)$/;"	f
+dwt_geteui	deca_device.c	/^void dwt_geteui(uint8 *eui64)$/;"	f
+dwt_getgpiovalue	deca_device.c	/^int dwt_getgpiovalue(uint32 gpioNum)$/;"	f
+dwt_geticreftemp	deca_device.c	/^uint8 dwt_geticreftemp(void)$/;"	f
+dwt_geticrefvolt	deca_device.c	/^uint8 dwt_geticrefvolt(void)$/;"	f
+dwt_getlotid	deca_device.c	/^uint32 dwt_getlotid(void)$/;"	f
+dwt_getpartid	deca_device.c	/^uint32 dwt_getpartid(void)$/;"	f
+dwt_getxtaltrim	deca_device.c	/^uint8 dwt_getxtaltrim(void)$/;"	f
+dwt_initialise	deca_device.c	/^int dwt_initialise(int config)$/;"	f
+dwt_isr	deca_device.c	/^void dwt_isr(void)$/;"	f
+dwt_loadopsettabfromotp	deca_device.c	/^void dwt_loadopsettabfromotp(uint8 ops_sel)$/;"	f
+dwt_local_data_t	deca_device.c	/^} dwt_local_data_t ;$/;"	t	typeref:struct:__anon4	file:
+dwt_lowpowerlistenisr	deca_device.c	/^void dwt_lowpowerlistenisr(void)$/;"	f
+dwt_otpread	deca_device.c	/^void dwt_otpread(uint16 address, uint32 *array, uint8 length)$/;"	f
+dwt_otprevision	deca_device.c	/^uint8 dwt_otprevision(void)$/;"	f
+dwt_otpwriteandverify	deca_device.c	/^int dwt_otpwriteandverify(uint32 value, uint16 address)$/;"	f
+dwt_read16bitoffsetreg	deca_device.c	/^uint16 dwt_read16bitoffsetreg(int regFileID, int regOffset)$/;"	f
+dwt_read32bitoffsetreg	deca_device.c	/^uint32 dwt_read32bitoffsetreg(int regFileID, int regOffset)$/;"	f
+dwt_read32bitreg	deca_device_api.h	1848;"	d
+dwt_read8bitoffsetreg	deca_device.c	/^uint8 dwt_read8bitoffsetreg(int regFileID, int regOffset)$/;"	f
+dwt_readaccdata	deca_device.c	/^void dwt_readaccdata(uint8 *buffer, uint16 len, uint16 accOffset)$/;"	f
+dwt_readcarrierintegrator	deca_device.c	/^int32 dwt_readcarrierintegrator(void)$/;"	f
+dwt_readdevid	deca_device.c	/^uint32 dwt_readdevid(void)$/;"	f
+dwt_readdiagnostics	deca_device.c	/^void dwt_readdiagnostics(dwt_rxdiag_t *diagnostics)$/;"	f
+dwt_readeventcounters	deca_device.c	/^void dwt_readeventcounters(dwt_deviceentcnts_t *counters)$/;"	f
+dwt_readfromdevice	deca_device.c	/^void dwt_readfromdevice$/;"	f
+dwt_readrxdata	deca_device.c	/^void dwt_readrxdata(uint8 *buffer, uint16 length, uint16 rxBufferOffset)$/;"	f
+dwt_readrxtimestamp	deca_device.c	/^void dwt_readrxtimestamp(uint8 * timestamp)$/;"	f
+dwt_readrxtimestamphi32	deca_device.c	/^uint32 dwt_readrxtimestamphi32(void)$/;"	f
+dwt_readrxtimestamplo32	deca_device.c	/^uint32 dwt_readrxtimestamplo32(void)$/;"	f
+dwt_readsystime	deca_device.c	/^void dwt_readsystime(uint8 * timestamp)$/;"	f
+dwt_readsystimestamphi32	deca_device.c	/^uint32 dwt_readsystimestamphi32(void)$/;"	f
+dwt_readtempvbat	deca_device.c	/^uint16 dwt_readtempvbat(uint8 fastSPI)$/;"	f
+dwt_readtxtimestamp	deca_device.c	/^void dwt_readtxtimestamp(uint8 * timestamp)$/;"	f
+dwt_readtxtimestamphi32	deca_device.c	/^uint32 dwt_readtxtimestamphi32(void)$/;"	f
+dwt_readtxtimestamplo32	deca_device.c	/^uint32 dwt_readtxtimestamplo32(void)$/;"	f
+dwt_readwakeuptemp	deca_device.c	/^uint8 dwt_readwakeuptemp(void)$/;"	f
+dwt_readwakeupvbat	deca_device.c	/^uint8 dwt_readwakeupvbat(void)$/;"	f
+dwt_rxdiag_t	deca_device_api.h	/^}dwt_rxdiag_t ;$/;"	t	typeref:struct:__anon10
+dwt_rxenable	deca_device.c	/^int dwt_rxenable(int mode)$/;"	f
+dwt_rxreset	deca_device.c	/^void dwt_rxreset(void)$/;"	f
+dwt_setaddress16	deca_device.c	/^void dwt_setaddress16(uint16 shortAddress)$/;"	f
+dwt_setcallbacks	deca_device.c	/^void dwt_setcallbacks(dwt_cb_t cbTxDone, dwt_cb_t cbRxOk, dwt_cb_t cbRxTo, dwt_cb_t cbRxErr)$/;"	f
+dwt_setdblrxbuffmode	deca_device.c	/^void dwt_setdblrxbuffmode(int enable)$/;"	f
+dwt_setdelayedtrxtime	deca_device.c	/^void dwt_setdelayedtrxtime(uint32 starttime)$/;"	f
+dwt_seteui	deca_device.c	/^void dwt_seteui(uint8 *eui64)$/;"	f
+dwt_setfinegraintxseq	deca_device.c	/^void dwt_setfinegraintxseq(int enable)$/;"	f
+dwt_setgpiodirection	deca_device.c	/^void dwt_setgpiodirection(uint32 gpioNum, uint32 direction)$/;"	f
+dwt_setgpiovalue	deca_device.c	/^void dwt_setgpiovalue(uint32 gpioNum, uint32 value)$/;"	f
+dwt_setinterrupt	deca_device.c	/^void dwt_setinterrupt(uint32 bitmask, uint8 operation)$/;"	f
+dwt_setleds	deca_device.c	/^void dwt_setleds(uint8 mode)$/;"	f
+dwt_setlnapamode	deca_device.c	/^void dwt_setlnapamode(int lna_pa)$/;"	f
+dwt_setlocaldataptr	deca_device.c	/^int dwt_setlocaldataptr(unsigned int index)$/;"	f
+dwt_setlowpowerlistening	deca_device.c	/^void dwt_setlowpowerlistening(int enable)$/;"	f
+dwt_setpanid	deca_device.c	/^void dwt_setpanid(uint16 panID)$/;"	f
+dwt_setpreambledetecttimeout	deca_device.c	/^void dwt_setpreambledetecttimeout(uint16 timeout)$/;"	f
+dwt_setrxaftertxdelay	deca_device.c	/^void dwt_setrxaftertxdelay(uint32 rxDelayTime)$/;"	f
+dwt_setrxantennadelay	deca_device.c	/^void dwt_setrxantennadelay(uint16 rxDelay)$/;"	f
+dwt_setrxtimeout	deca_device.c	/^void dwt_setrxtimeout(uint16 time)$/;"	f
+dwt_setsmarttxpower	deca_device.c	/^void dwt_setsmarttxpower(int enable)$/;"	f
+dwt_setsniffmode	deca_device.c	/^void dwt_setsniffmode(int enable, uint8 timeOn, uint8 timeOff)$/;"	f
+dwt_setsnoozetime	deca_device.c	/^void dwt_setsnoozetime(uint8 snooze_time)$/;"	f
+dwt_settxantennadelay	deca_device.c	/^void dwt_settxantennadelay(uint16 txDelay)$/;"	f
+dwt_setxtaltrim	deca_device.c	/^void dwt_setxtaltrim(uint8 value)$/;"	f
+dwt_softreset	deca_device.c	/^void dwt_softreset(void)$/;"	f
+dwt_spicswakeup	deca_device.c	/^int dwt_spicswakeup(uint8 *buff, uint16 length)$/;"	f
+dwt_starttx	deca_device.c	/^int dwt_starttx(uint8 mode)$/;"	f
+dwt_syncrxbufptrs	deca_device.c	/^void dwt_syncrxbufptrs(void)$/;"	f
+dwt_txconfig_t	deca_device_api.h	/^dwt_txconfig_t ;$/;"	t	typeref:struct:__anon9
+dwt_write16bitoffsetreg	deca_device.c	/^void dwt_write16bitoffsetreg(int regFileID, int regOffset, uint16 regval)$/;"	f
+dwt_write32bitoffsetreg	deca_device.c	/^void dwt_write32bitoffsetreg(int regFileID, int regOffset, uint32 regval)$/;"	f
+dwt_write32bitreg	deca_device_api.h	1847;"	d
+dwt_write8bitoffsetreg	deca_device.c	/^void dwt_write8bitoffsetreg(int regFileID, int regOffset, uint8 regval)$/;"	f
+dwt_writetodevice	deca_device.c	/^void dwt_writetodevice$/;"	f
+dwt_writetxdata	deca_device.c	/^int dwt_writetxdata(uint16 txFrameLength, uint8 *txFrameBytes, uint16 txBufferOffset)$/;"	f
+dwt_writetxfctrl	deca_device.c	/^void dwt_writetxfctrl(uint16 txFrameLength, uint16 txBufferOffset, int ranging)$/;"	f
+emit_event_e	emit_core.h	/^} emit_event_e;$/;"	t	typeref:enum:__anon17
+emit_event_len	emit_core.h	/^    emit_event_len \/\/LEAVE AS LAST!$/;"	e	enum:__anon17
+emit_state_check_status	emit_core.h	/^    emit_state_check_status,$/;"	e	enum:__anon16
+emit_state_e	emit_core.h	/^} emit_state_e;$/;"	t	typeref:enum:__anon16
+emit_state_fota	emit_core.h	/^    emit_state_fota,     \/\/this state also dumps the flash$/;"	e	enum:__anon16
+emit_state_len	emit_core.h	/^    emit_state_len$/;"	e	enum:__anon16
+emit_state_scan_advertise	emit_core.h	/^    emit_state_scan_advertise,$/;"	e	enum:__anon16
+emit_thread_data	emit_core.c	/^static struct k_thread emit_thread_data;  $/;"	v	typeref:struct:k_thread	file:
+erase_image_1	flash_core.c	/^void erase_image_1(){$/;"	f
+erase_image_small	flash_core.c	/^void erase_image_small(){$/;"	f
+erase_incidence_data	flash_core.c	/^void erase_incidence_data(){$/;"	f
+erase_page	flash_core.c	/^static void erase_page(uint32_t id){$/;"	f	file:
+esp_conn	ble_core.c	/^static struct bt_conn *esp_conn;$/;"	v	typeref:struct:bt_conn	file:
+event_filter_func	emit_core.c	/^static bool event_filter_func(state_event_t event) {$/;"	f	file:
+event_filter_func	master_core.c	/^static bool event_filter_func(state_event_t event) {$/;"	f	file:
+event_multiplexer	state_core.c	/^static void event_multiplexer(void* unused0, void * unused1, void * unused2) {$/;"	f	file:
+event_print	state_core.h	/^    char* (*event_print)(state_event_t);$/;"	m	struct:__anon6
+event_print_func	emit_core.c	/^static char* event_print_func(state_event_t event) {$/;"	f	file:
+event_print_func	master_core.c	/^static char* event_print_func(state_event_t event) {$/;"	f	file:
+events_wait_for_connection	signals_core.c	/^static struct k_poll_event events_wait_for_connection[TOTAL_NUMBER_OF_EVENTS] = {$/;"	v	typeref:struct:k_poll_event	file:
+events_wait_for_disconnect	signals_core.c	/^static struct k_poll_event events_wait_for_disconnect[TOTAL_NUMBER_OF_EVENTS] = {$/;"	v	typeref:struct:k_poll_event	file:
+events_wait_for_sntp	signals_core.c	/^static struct k_poll_event events_wait_for_sntp[TOTAL_NUMBER_OF_EVENTS] = {$/;"	v	typeref:struct:k_poll_event	file:
+events_wait_for_worker	signals_core.c	/^static struct k_poll_event events_wait_for_worker[TOTAL_NUMBER_OF_EVENTS] = {$/;"	v	typeref:struct:k_poll_event	file:
+events_wait_for_write	signals_core.c	/^static struct k_poll_event events_wait_for_write[TOTAL_NUMBER_OF_EVENTS] = {$/;"	v	typeref:struct:k_poll_event	file:
+fast	spi_core.c	/^static bool fast;$/;"	v	file:
+fctrl	deca_device_api.h	/^    uint8  fctrl[2];    \/\/frame control bytes$/;"	m	struct:__anon7
+filter_event	state_core.h	/^    bool (*filter_event)(state_event_t);$/;"	m	struct:__anon6
+final_msg_get_ds	ss_resp_main.c	/^static uint16_t final_msg_get_ds(uint8 *ts_field)$/;"	f	file:
+final_msg_set_ts	ss_twr_init.c	/^static void final_msg_set_ts(uint8 *ts_field, const float distance_f)$/;"	f	file:
+finalize_image	fota_core.c	/^void finalize_image(){$/;"	f
+firstPath	deca_device_api.h	/^    uint16      firstPath ;         \/\/ First path index (10.6 bits fixed point integer)$/;"	m	struct:__anon10
+firstPathAmp1	deca_device_api.h	/^    uint16      firstPathAmp1 ;     \/\/ Amplitude at floor(index FP) + 1$/;"	m	struct:__anon10
+firstPathAmp2	deca_device_api.h	/^    uint16      firstPathAmp2 ;     \/\/ Amplitude at floor(index FP) + 2$/;"	m	struct:__anon10
+firstPathAmp3	deca_device_api.h	/^    uint16      firstPathAmp3 ;     \/\/ Amplitude at floor(index FP) + 3$/;"	m	struct:__anon10
+flash_curr_t	flash_core.h	/^} flash_curr_t;$/;"	t	typeref:struct:__anon15
+flash_dev	flash_core.c	/^static const struct device *flash_dev;$/;"	v	typeref:struct:device	file:
+flash_has_space	flash_core.c	/^static bool flash_has_space;$/;"	v	file:
+flash_is_empty	flash_core.c	/^bool flash_is_empty(){$/;"	f
+flash_memblock	flash_core.c	/^static uint8_t flash_memblock[FLASH_PAGE_SIZE];$/;"	v	file:
+flash_mutex	flash_core.c	/^static struct k_mutex flash_mutex;$/;"	v	typeref:struct:k_mutex	file:
+flash_oldest_t	flash_core.h	/^} flash_oldest_t;$/;"	t	typeref:struct:__anon14
+flash_packet_t	flash_core.h	/^}__attribute__((packed)) flash_packet_t;$/;"	t	typeref:struct:__anon12
+flash_test	flash_core.c	/^void flash_test(){$/;"	f
+flush_buffer	trace_core.c	/^static void flush_buffer(){$/;"	f	file:
+flush_required	trace_core.c	/^static bool flush_required(){$/;"	f	file:
+frame_len	rx_core.c	/^static uint16 frame_len = 0;$/;"	v	file:
+frame_seq_nb	ss_resp_main.c	/^static uint8 frame_seq_nb = 0;$/;"	v	file:
+frame_seq_nb	ss_twr_init.c	/^static uint8 frame_seq_nb = 0;$/;"	v	file:
+fs_pll_cfg	deca_params_init.c	/^const uint32 fs_pll_cfg[NUM_CH] =$/;"	v
+fs_pll_tune	deca_params_init.c	/^const uint8 fs_pll_tune[NUM_CH] =$/;"	v
+func_check_status	emit_core.c	/^static state_t func_check_status() {$/;"	f	file:
+func_dump	master_core.c	/^static state_t func_dump() {$/;"	f	file:
+func_dump_cleanup	master_core.c	/^static void func_dump_cleanup() {$/;"	f	file:
+func_idle	master_core.c	/^static state_t func_idle() {$/;"	f	file:
+func_ptr	state_core.h	/^typedef state_t (*func_ptr)(void);$/;"	t
+func_scan_advertise	emit_core.c	/^static state_t func_scan_advertise(){$/;"	f	file:
+func_sntp	master_core.c	/^static state_t func_sntp() {$/;"	f	file:
+func_sntp_cleanup	master_core.c	/^static void func_sntp_cleanup() {$/;"	f	file:
+func_translation_table	emit_core.c	/^static state_array_s func_translation_table[emit_state_len] = {$/;"	v	file:
+func_translation_table	master_core.c	/^static state_array_s func_translation_table[master_state_len] = {$/;"	v	file:
+fw_req	ble_core.h	/^  uint16_t fw_req;$/;"	m	struct:__anon19
+fw_val	ble_core.h	/^  uint16_t fw_val;$/;"	m	struct:__anon19
+fw_ver	ble_core.h	/^  uint16_t fw_ver;$/;"	m	struct:__anon19
+generate_fake_incidence	ble_core.c	/^static int generate_fake_incidence(){$/;"	f	file:
+get_age_in_hours	time_core.c	/^uint32_t get_age_in_hours(uint32_t time){$/;"	f
+get_age_oldest_page	flash_core.c	/^uint32_t get_age_oldest_page(){$/;"	f
+get_config_data	flash_core.c	/^int get_config_data(){$/;"	f
+get_current_time	time_core.c	/^uint32_t get_current_time(){$/;"	f
+get_emit_state_handle	emit_core.c	/^static state_init_s* get_emit_state_handle() {$/;"	f	file:
+get_event_generic	state_core.c	/^static state_event_t get_event_generic(struct k_msgq * q_handle, uint32_t timeout) {$/;"	f	file:
+get_flash_full	flash_core.c	/^bool get_flash_full(){$/;"	f
+get_from_trace_debug_buffer	trace_core.c	/^int get_from_trace_debug_buffer(flash_packet_t * flash){$/;"	f
+get_master_state_handle	master_core.c	/^static state_init_s* get_master_state_handle() {$/;"	f	file:
+get_nw_time	ble_core.c	/^int get_nw_time(){$/;"	f
+get_oldest_page	flash_core.c	/^uint32_t get_oldest_page(){$/;"	f
+get_rx_timestamp_u64	ss_resp_main.c	/^static uint64 get_rx_timestamp_u64(void)$/;"	f	file:
+get_state_table	state_core.c	/^static state_array_s get_state_table(state_init_s * state_ptr, state_t state) {$/;"	f	file:
+get_sys_times_u64	ss_twr_init.c	/^static uint64_t get_sys_times_u64(void)$/;"	f	file:
+get_time_age	time_core.c	/^uint32_t get_time_age(){$/;"	f
+get_total_valid_pages	flash_core.c	/^uint16_t get_total_valid_pages(){$/;"	f
+give_flash_sem	flash_core.c	/^void give_flash_sem(){$/;"	f
+handle_key_t	ble_core.h	/^} handle_key_t;$/;"	t	typeref:struct:__anon19
+head	state_core.c	/^static node_t*           head;$/;"	v	file:
+id	flash_core.h	/^      uint32_t id;           \/\/ Only valid for type == page header$/;"	m	union:__anon12::__anon13
+increment_to_next_valid_page	flash_core.c	/^static int increment_to_next_valid_page(){$/;"	f	file:
+init_ble_core	ble_core.c	/^void init_ble_core(){$/;"	f
+init_emit_core	emit_core.c	/^void init_emit_core(){$/;"	f
+init_flash_core	flash_core.c	/^void init_flash_core(){$/;"	f
+init_gpio_core	gpio_core.c	/^void init_gpio_core(){$/;"	f
+init_kernel_objects	ble_core.c	/^static void init_kernel_objects(){$/;"	f	file:
+init_kernel_objects	flash_core.c	/^static void init_kernel_objects(){$/;"	f	file:
+init_kernel_objects	trace_core.c	/^static void init_kernel_objects(){$/;"	f	file:
+init_master_core	master_core.c	/^void init_master_core(){$/;"	f
+init_signals_core	signals_core.c	/^void init_signals_core(){$/;"	f
+init_trace_core	trace_core.c	/^void init_trace_core(){$/;"	f
+insert_trace_packet	trace_core.c	/^static int insert_trace_packet(trace_packet_t* packet){$/;"	f	file:
+int16	deca_device_api.h	/^typedef signed short int16;$/;"	t
+int16	deca_types.h	/^typedef signed short int16;$/;"	t
+int32	deca_device_api.h	/^typedef signed long int32;$/;"	t
+int32	deca_types.h	/^typedef signed long int32;$/;"	t
+int64	ss_resp_main.c	/^typedef signed long long int64;$/;"	t	file:
+int8	deca_device_api.h	/^typedef signed char int8;$/;"	t
+int8	deca_types.h	/^typedef signed char int8;$/;"	t
+is_charging	gpio_core.c	/^bool is_charging(){$/;"	f
+lde_replicaCoeff	deca_params_init.c	/^const uint16 lde_replicaCoeff[PCODES] =$/;"	v
+led_toggle_task_function	ss_twr_init.c	/^static void led_toggle_task_function (void * pvParameter)$/;"	f	file:
+led_toggle_task_handle	ss_twr_init.c	/^TaskHandle_t  led_toggle_task_handle;   \/**< Reference to LED0 toggling FreeRTOS task. *\/$/;"	v
+led_toggle_timer_callback	ss_twr_init.c	/^static void led_toggle_timer_callback (void * pvParameter)$/;"	f	file:
+led_toggle_timer_handle	ss_twr_init.c	/^TimerHandle_t led_toggle_timer_handle;  \/**< Reference to LED1 toggling FreeRTOS timer. *\/$/;"	v
+lo32	deca_param_types.h	/^    uint32 lo32;$/;"	m	struct:__anon1
+longFrames	deca_device.c	/^    uint8       longFrames ;        \/\/ Flag in non-standard long frame mode$/;"	m	struct:__anon4	file:
+loop_timer	state_core.h	/^    uint32_t loop_timer;$/;"	m	struct:__anon5
+lotID	deca_device.c	/^    uint32      lotID ;             \/\/ IC Lot ID - read during initialisation$/;"	m	struct:__anon4	file:
+main	main.c	/^void main(void) {$/;"	f
+main_init	ss_twr_init.c	/^int main_init(void)$/;"	f
+main_resp	ss_resp_main.c	/^int main_resp(void)$/;"	f
+manufactuers_data	ble_core.h	/^    uint8_t  manufactuers_data[BLE_MANUFACTURERS_DATA_LEN];$/;"	m	struct:__anon18
+manufactuers_data	flash_core.h	/^    uint8_t  manufactuers_data[BLE_MANUFACTURERS_DATA_LEN];$/;"	m	struct:__anon12
+manufactuers_data	trace_core.h	/^    uint8_t  manufactuers_data[BLE_MANUFACTURERS_DATA_LEN];$/;"	m	struct:__anon21
+master_event_e	master_core.h	/^} master_event_e;$/;"	t	typeref:enum:__anon3
+master_event_len	master_core.h	/^    master_event_len \/\/LEAVE AS LAST!$/;"	e	enum:__anon3
+master_state_dump	master_core.h	/^    master_state_dump,$/;"	e	enum:__anon2
+master_state_e	master_core.h	/^} master_state_e;$/;"	t	typeref:enum:__anon2
+master_state_idle	master_core.h	/^    master_state_idle = 0,$/;"	e	enum:__anon2
+master_state_len	master_core.h	/^    master_state_len$/;"	e	enum:__anon2
+master_state_sntp	master_core.h	/^    master_state_sntp,$/;"	e	enum:__anon2
+master_thread_data	master_core.c	/^static struct k_thread master_thread_data;  $/;"	v	typeref:struct:k_thread	file:
+maxGrowthCIR	deca_device_api.h	/^    uint16      maxGrowthCIR ;      \/\/ Channel Impulse Response max growth CIR$/;"	m	struct:__anon10
+maxNoise	deca_device_api.h	/^    uint16      maxNoise ;          \/\/ LDE max value of noise$/;"	m	struct:__anon10
+name_complete	ble_core.h	/^    uint8_t  name_complete[BLE_MANUFACTURERS_NAME_LEN]; $/;"	m	struct:__anon18
+next	state_core.c	/^    struct node*  next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next_state	state_core.h	/^    void (*next_state)(state_t*, state_event_t);$/;"	m	struct:__anon6
+next_state_func	emit_core.c	/^static void next_state_func(state_t* curr_state, state_event_t event) {$/;"	f	file:
+next_state_func	master_core.c	/^static void next_state_func(state_t* curr_state, state_event_t event) {$/;"	f	file:
+node	state_core.c	/^typedef struct node {$/;"	s	file:
+node_t	state_core.c	/^} node_t;$/;"	t	typeref:struct:node	file:
+nsSFD	deca_device_api.h	/^    uint8 nsSFD ;          \/\/!< Boolean should we use non-standard SFD for better performance$/;"	m	struct:__anon8
+number_of_incidents	trace_core.c	/^static uint8_t number_of_incidents; \/\/counts how many of the above array is filled$/;"	v	file:
+oldest_id	flash_core.h	/^  uint32_t oldest_id;$/;"	m	struct:__anon14
+oldest_id_page	flash_core.h	/^  uint32_t oldest_id_page;$/;"	m	struct:__anon14
+oldest_info	flash_core.c	/^static flash_oldest_t oldest_info;$/;"	v	file:
+olest_id_age_utc	flash_core.h	/^  uint32_t olest_id_age_utc;$/;"	m	struct:__anon14
+otp_mask	deca_device.c	/^    uint16      otp_mask ;          \/\/ Local copy of the OTP mask used in dwt_initialise call$/;"	m	struct:__anon4	file:
+otprev	deca_device.c	/^    uint8       otprev ;            \/\/ OTP revision number (read during initialisation)$/;"	m	struct:__anon4	file:
+parse_header_packet	flash_core.c	/^static void parse_header_packet(flash_packet_t *header, int page){$/;"	f	file:
+partID	deca_device.c	/^    uint32      partID ;            \/\/ IC Part ID - read during initialisation$/;"	m	struct:__anon4	file:
+pdw1000local	deca_device.c	/^static dwt_local_data_t *pdw1000local = dw1000local ; \/\/ Static local data structure pointer$/;"	v	file:
+phrMode	deca_device_api.h	/^    uint8 phrMode ;        \/\/!< PHR mode {0x0 - standard DWT_PHRMODE_STD, 0x3 - extended frames DWT_PHRMODE_EXT}$/;"	m	struct:__anon8
+poll_connection	signals_core.c	/^static int poll_connection(uint32_t timeout){$/;"	f	file:
+poll_disconnect	signals_core.c	/^static int poll_disconnect(uint32_t timeout){$/;"	f	file:
+poll_event	signals_core.c	/^int poll_event(sync_event_t event, uint32_t timeout){$/;"	f
+poll_rx_ts	ss_resp_main.c	/^static uint64 poll_rx_ts;$/;"	v	file:
+poll_sntp	signals_core.c	/^static int poll_sntp(uint32_t timeout){$/;"	f	file:
+poll_worker_done	signals_core.c	/^static int poll_worker_done(uint32_t timeout){$/;"	f	file:
+poll_write	signals_core.c	/^static int poll_write(uint32_t timeout){$/;"	f	file:
+port_set_dw1000_fastrate	spi_core.c	/^void port_set_dw1000_fastrate(void){$/;"	f
+port_set_dw1000_slowrate	spi_core.c	/^void port_set_dw1000_slowrate(void){$/;"	f
+power	deca_device_api.h	/^    uint32  power;$/;"	m	struct:__anon9
+previous_unix_time	time_core.c	/^static uint32_t previous_unix_time;$/;"	v	file:
+prf	deca_device_api.h	/^    uint8 prf ;            \/\/!< Pulse Repetition Frequency {DWT_PRF_16M or DWT_PRF_64M}$/;"	m	struct:__anon8
+print_hex	flash_core.c	/^void print_hex(uint8_t* buffer, size_t buff_len) {$/;"	f
+readfromspi	spi_core.c	/^int readfromspi(uint16_t headerLength, uint8_t *headerBuffer, uint32_t readLength, uint8_t *readBuffer) {$/;"	f
+reset_DW1000	gpio_core.c	/^void reset_DW1000(){$/;"	f
+resp_msg_get_ts	ss_twr_init.c	/^static void resp_msg_get_ts(uint8 *ts_field, uint32 *ts)$/;"	f	file:
+resp_msg_set_ts	ss_resp_main.c	/^static void resp_msg_set_ts(uint8 *ts_field, const uint64 ts)$/;"	f	file:
+resp_tx_ts	ss_resp_main.c	/^static uint64 resp_tx_ts;$/;"	v	file:
+rxCode	deca_device_api.h	/^    uint8 rxCode ;         \/\/!< RX preamble code$/;"	m	struct:__anon8
+rxPAC	deca_device_api.h	/^    uint8 rxPAC ;          \/\/!< Acquisition Chunk Size (Relates to RX preamble length)$/;"	m	struct:__anon8
+rxPreamCount	deca_device_api.h	/^    uint16      rxPreamCount ;      \/\/ Count of preamble symbols accumulated$/;"	m	struct:__anon10
+rx_buffer	rx_core.c	/^static uint8 rx_buffer[FRAME_LEN_MAX];$/;"	v	file:
+rx_buffer	ss_resp_main.c	/^static uint8 rx_buffer[RX_BUF_LEN];$/;"	v	file:
+rx_buffer	ss_twr_init.c	/^static uint8 rx_buffer[RX_BUF_LEN];$/;"	v	file:
+rx_config	deca_params_init.c	/^const uint8 rx_config[NUM_BW] =$/;"	v
+rx_count	ss_twr_init.c	/^static volatile int rx_count = 0 ; \/\/ Successful receive counter $/;"	v	file:
+rx_flags	deca_device_api.h	/^    uint8  rx_flags;    \/\/RX frame flags, see above$/;"	m	struct:__anon7
+rx_poll_msg	ss_resp_main.c	/^static uint8 rx_poll_msg[] = {0x41, 0x88, 0, 0xCA, 0xDE, 'W', 'A', 'V', 'E', 0xE0, 0, 0};$/;"	v	file:
+rx_resp_msg	ss_twr_init.c	/^static uint8 rx_resp_msg[] = {0x41, 0x88, 0, 0xCA, 0xDE, 'V', 'E', 'W', 'A', 0xE1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};$/;"	v	file:
+rx_test	rx_core.c	/^void rx_test(){$/;"	f
+scan_cb_connect	ble_core.c	/^static void scan_cb_connect(const bt_addr_le_t *addr, int8_t rssi, uint8_t type, struct net_buf_simple *buf) {$/;"	f	file:
+scan_cb_record	ble_core.c	/^static void scan_cb_record(const bt_addr_le_t *addr, int8_t rssi, uint8_t type, struct net_buf_simple *buf) {$/;"	f	file:
+send_event_generic	state_core.c	/^static void send_event_generic(struct k_msgq * q_handle, state_event_t event, char * name) {$/;"	f	file:
+set_blue_led	gpio_core.c	/^void set_blue_led(bool on){$/;"	f
+set_chunk_sent	flash_core.c	/^void set_chunk_sent(uint32_t chunk){$/;"	f
+set_config_data	flash_core.c	/^void set_config_data(int id){$/;"	f
+set_current_time	time_core.c	/^int set_current_time(uint32_t time){$/;"	f
+set_flash_full	flash_core.c	/^static void set_flash_full(bool full){$/;"	f	file:
+set_next_packet_address	flash_core.c	/^static int set_next_packet_address(){$/;"	f	file:
+set_red_led	gpio_core.c	/^void set_red_led(bool on){$/;"	f
+sfdTO	deca_device_api.h	/^    uint16 sfdTO ;         \/\/!< SFD timeout value (in symbols)$/;"	m	struct:__anon8
+sftsh	deca_params_init.c	/^const uint16 sftsh[NUM_BR][NUM_SFD] =$/;"	v
+signal_connection_done	signals_core.c	/^static void signal_connection_done(){$/;"	f	file:
+signal_disconnect_done	signals_core.c	/^static void signal_disconnect_done(){$/;"	f	file:
+signal_event	signals_core.c	/^void signal_event(sync_event_t event){$/;"	f
+signal_sntp_done	signals_core.c	/^static void signal_sntp_done(){$/;"	f	file:
+signal_worker_done	signals_core.c	/^static void signal_worker_done(){$/;"	f	file:
+signal_write_done	signals_core.c	/^static void signal_write_done(){$/;"	f	file:
+sleep_mode	deca_device.c	/^    uint16      sleep_mode;         \/\/ Used for automatic reloading of LDO tune and microcode at wake-up$/;"	m	struct:__anon4	file:
+spare	ble_core.h	/^    uint8_t spare[21];$/;"	m	struct:__anon18
+specifics	flash_core.h	/^    } specifics;$/;"	m	struct:__anon12	typeref:union:__anon12::__anon13
+spi_cfg_fast	spi_core.c	/^static const struct spi_config spi_cfg_fast = {$/;"	v	typeref:struct:spi_config	file:
+spi_cfg_slow	spi_core.c	/^static const struct spi_config spi_cfg_slow = {$/;"	v	typeref:struct:spi_config	file:
+spi_dev	spi_core.c	/^static struct device const * spi_dev;$/;"	v	file:
+spi_init_core	spi_core.c	/^void spi_init_core(void){$/;"	f
+spi_mutex	spi_core.c	/^static struct k_mutex  spi_mutex;$/;"	v	typeref:struct:k_mutex	file:
+spi_set_cs_deca	gpio_core.c	/^void spi_set_cs_deca(bool set){$/;"	f
+ss_init_run	ss_twr_init.c	/^static int ss_init_run(uint16_t* peer_found_distance_in_cm)$/;"	f	file:
+ss_initiator_task_handle	ss_twr_init.c	/^TaskHandle_t  ss_initiator_task_handle;   \/**< Reference to SS TWR Initiator FreeRTOS task. *\/$/;"	v
+ss_resp_run	ss_resp_main.c	/^static int ss_resp_run(uint16_t * peer_distance_in_cm)$/;"	f	file:
+start_adv	ble_core.c	/^static int start_adv(){$/;"	f	file:
+start_fw_update	fota_core.c	/^static int start_fw_update(){$/;"	f	file:
+start_new_state_machine	state_core.c	/^void start_new_state_machine(state_init_s* state_ptr, struct k_thread * t_data, k_thread_stack_t* t_area, size_t t_size) {$/;"	f
+start_scan	ble_core.c	/^static void start_scan(void){$/;"	f	file:
+start_scan_and_connect	ble_core.c	/^static int start_scan_and_connect(){$/;"	f	file:
+start_scan_connect	ble_core.c	/^static int start_scan_connect(void){$/;"	f	file:
+start_scan_record	ble_core.c	/^int start_scan_record(){$/;"	f
+starting_state	state_core.h	/^    state_t starting_state;$/;"	m	struct:__anon6
+state_array_s	state_core.h	/^} state_array_s;$/;"	t	typeref:struct:__anon5
+state_event_t	state_core.h	/^typedef uint32_t state_event_t; \/\/ Which event$/;"	t
+state_function_cleanup	state_core.h	/^    cleanup_ptr state_function_cleanup;$/;"	m	struct:__anon5
+state_function_pointer	state_core.h	/^    func_ptr state_function_pointer;$/;"	m	struct:__anon5
+state_init_s	state_core.h	/^} state_init_s;$/;"	t	typeref:struct:__anon6
+state_machine	state_core.c	/^static void state_machine(void* arg0, void* arg1, void* arg2) {$/;"	f	file:
+state_name_string	state_core.h	/^    char* state_name_string;$/;"	m	struct:__anon6
+state_post_event	state_core.c	/^void state_post_event(state_event_t event) {$/;"	f
+state_queue_input_handle	state_core.h	/^    struct k_msgq * state_queue_input_handle;  $/;"	m	struct:__anon6	typeref:struct:__anon6::k_msgq
+state_t	state_core.h	/^typedef uint32_t state_t;       \/\/ Which state in a state machine$/;"	t
+status	deca_device_api.h	/^    uint32 status;      \/\/initial value of register as ISR is entered$/;"	m	struct:__anon7
+status_reg	rx_core.c	/^static uint32 status_reg = 0;$/;"	v	file:
+status_reg	ss_resp_main.c	/^static uint32 status_reg = 0;$/;"	v	file:
+status_reg	ss_twr_init.c	/^static uint32 status_reg = 0;$/;"	v	file:
+stdNoise	deca_device_api.h	/^    uint16      stdNoise ;          \/\/ Standard deviation of noise$/;"	m	struct:__anon10
+stop_adv	ble_core.c	/^static void stop_adv(){$/;"	f	file:
+stop_scan	ble_core.c	/^static void stop_scan(void){$/;"	f	file:
+submit_adv_packet	trace_core.c	/^void submit_adv_packet(adv_packet_t * packet){$/;"	f
+switch_image	fota_core.c	/^int switch_image(){$/;"	f
+sync_event_t	signals_core.h	/^typedef uint32_t sync_event_t;$/;"	t
+sync_flash_status	flash_core.c	/^static int sync_flash_status(){$/;"	f	file:
+sync_sem	ble_core.c	/^K_MUTEX_DEFINE(sync_sem);$/;"	v
+sysCFGreg	deca_device.c	/^    uint32      sysCFGreg ;         \/\/ Local copy of system config register$/;"	m	struct:__anon4	file:
+take_flash_sem	flash_core.c	/^void take_flash_sem(){$/;"	f
+target	deca_param_types.h	/^    uint16 target[NUM_PRF];$/;"	m	struct:__anon1
+tempP	deca_device.c	/^    uint8       tempP ;             \/\/ IC V temp read during production and stored in OTP (Tmeas @ 23C)$/;"	m	struct:__anon4	file:
+test_buff	flash_core.c	/^static char test_buff[FLASH_PAGE_SIZE];$/;"	v	file:
+test_routine_trace	trace_core.c	/^void test_routine_trace(){$/;"	f
+thread_info	state_core.c	/^    state_init_s* thread_info;$/;"	m	struct:node	file:
+time	ble_core.h	/^  uint16_t time;$/;"	m	struct:__anon19
+time	uwb_core.h	/^    uint32_t time;$/;"	m	struct:__anon20
+time_past_previous_advertise_cycle	time_core.c	/^uint32_t time_past_previous_advertise_cycle(){$/;"	f
+time_sem	time_core.c	/^K_MUTEX_DEFINE(time_sem);$/;"	v
+time_utill_next_advertise_cycle	time_core.c	/^uint32_t time_utill_next_advertise_cycle(){$/;"	f
+tof	ss_twr_init.c	/^static double tof;$/;"	v	file:
+total_states	state_core.h	/^    int total_states;$/;"	m	struct:__anon6
+total_valid_pages	flash_core.h	/^  uint16_t total_valid_pages;$/;"	m	struct:__anon15
+trace_buffer	trace_core.c	/^static trace_packet_t trace_buffer[TRACE_PACKET_BUFFER_SIZE]; $/;"	v	file:
+trace_packet_t	trace_core.h	/^}__attribute__((packed)) trace_packet_t;$/;"	t	typeref:struct:__anon21
+trace_thread	trace_core.c	/^static void trace_thread(void * a, void * b, void * c){$/;"	f	file:
+trace_thread_data	trace_core.c	/^static struct         k_thread trace_thread_data;$/;"	v	typeref:struct:k_thread	file:
+translation_table	state_core.h	/^    state_array_s * translation_table;$/;"	m	struct:__anon6
+txCode	deca_device_api.h	/^    uint8 txCode ;         \/\/!< TX preamble code$/;"	m	struct:__anon8
+txFCTRL	deca_device.c	/^    uint32      txFCTRL ;           \/\/ Keep TX_FCTRL register config$/;"	m	struct:__anon4	file:
+txPreambLength	deca_device_api.h	/^    uint8 txPreambLength ; \/\/!< DWT_PLEN_64..DWT_PLEN_4096$/;"	m	struct:__anon8
+tx_config	deca_params_init.c	/^const uint32 tx_config[NUM_CH] =$/;"	v
+tx_count	ss_twr_init.c	/^static volatile int tx_count = 0 ; \/\/ Successful transmit counter$/;"	v	file:
+tx_fnl_msg	ss_resp_main.c	/^static uint8 tx_fnl_msg[]  = {0x41, 0x88, 0, 0xCA, 0xDE, 'T', 'E', 'R', 'A', 0xE2, 0, 0, 0, 0};$/;"	v	file:
+tx_fnl_msg	ss_twr_init.c	/^static uint8 tx_fnl_msg[]  = {0x41, 0x88, 0, 0xCA, 0xDE, 'T', 'E', 'R', 'A', 0xE2, 0, 0, 0, 0};$/;"	v	file:
+tx_msg	tx_core.c	/^static uint8 tx_msg[] = {0xC5, 0, 'D', 'E', 'C', 'A', 'W', 'A', 'V', 'E', 0, 0};$/;"	v	file:
+tx_poll_msg	ss_twr_init.c	/^static uint8 tx_poll_msg[] = {0x41, 0x88, 0, 0xCA, 0xDE, 'W', 'A', 'V', 'E', 0xE0, 0, 0};$/;"	v	file:
+tx_resp_msg	ss_resp_main.c	/^static uint8 tx_resp_msg[] = {0x41, 0x88, 0, 0xCA, 0xDE, 'V', 'E', 'W', 'A', 0xE1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};$/;"	v	file:
+tx_test	tx_core.c	/^void tx_test(void)$/;"	f
+type	flash_core.h	/^    uint16_t type;$/;"	m	struct:__anon12
+uint16	deca_device_api.h	/^typedef unsigned short uint16;$/;"	t
+uint16	deca_types.h	/^typedef unsigned short uint16;$/;"	t
+uint32	deca_device_api.h	/^typedef unsigned long uint32;$/;"	t
+uint32	deca_types.h	/^typedef unsigned long uint32;$/;"	t
+uint64	ss_resp_main.c	/^typedef unsigned long long uint64;$/;"	t	file:
+uint8	deca_device_api.h	/^typedef unsigned char uint8;$/;"	t
+uint8	deca_types.h	/^typedef unsigned char uint8;$/;"	t
+upload_chunk	upload_shim.c	/^int upload_chunk(){$/;"	f
+upload_from_trace	upload_shim.c	/^int upload_from_trace(){$/;"	f
+upload_incident_chunk	flash_core.c	/^int upload_incident_chunk(uint8_t ** data, uint32_t * ready_chunk){$/;"	f
+uploaded	flash_core.c	/^static uint8_t uploaded[UPLOAD_CHUNKS_IN_PAGE];$/;"	v	file:
+uptime_at_previous_unix_time	time_core.c	/^static uint32_t uptime_at_previous_unix_time;$/;"	v	file:
+usr_data	ble_core.c	/^static char usr_data[MAX_USER_DATA_LEN];$/;"	v	file:
+utc	flash_core.h	/^    int32_t  utc;$/;"	m	struct:__anon12
+utc	trace_core.h	/^    uint32_t utc;$/;"	m	struct:__anon21
+uuid	ble_core.c	/^static struct bt_uuid_16  uuid;$/;"	v	typeref:struct:bt_uuid_16	file:
+uuid_key	ble_core.c	/^static handle_key_t uuid_key;$/;"	v	file:
+uwb_distance_cm	ble_core.h	/^    uint16_t uwb_distance_cm;$/;"	m	struct:__anon18
+uwb_packet_t	uwb_core.h	/^}__attribute__((packed)) uwb_packet_t;$/;"	t	typeref:struct:__anon20
+uwb_scan_adv	uwb_core.c	/^int uwb_scan_adv(){$/;"	f
+vBatP	deca_device.c	/^    uint8       vBatP ;             \/\/ IC V bat read during production and stored in OTP (Vmeas @ 3V3)$/;"	m	struct:__anon4	file:
+valid	ble_core.h	/^  bool     valid;$/;"	m	struct:__anon19
+valid	trace_core.h	/^    uint8_t  valid;$/;"	m	struct:__anon21
+wait4resp	deca_device.c	/^    uint8       wait4resp ;         \/\/ wait4response was set with last TX start command$/;"	m	struct:__anon4	file:
+wait_for_connection	signals_core.c	/^static struct k_poll_signal wait_for_connection;$/;"	v	typeref:struct:k_poll_signal	file:
+wait_for_disconnect	signals_core.c	/^static struct k_poll_signal wait_for_disconnect;$/;"	v	typeref:struct:k_poll_signal	file:
+wait_for_sntp	signals_core.c	/^static struct k_poll_signal wait_for_sntp;$/;"	v	typeref:struct:k_poll_signal	file:
+wait_for_worker	signals_core.c	/^static struct k_poll_signal wait_for_worker;$/;"	v	typeref:struct:k_poll_signal	file:
+wait_for_write	signals_core.c	/^static struct k_poll_signal wait_for_write;$/;"	v	typeref:struct:k_poll_signal	file:
+write_packet	flash_core.c	/^void write_packet(trace_packet_t* trace_packet){$/;"	f
+write_status	ble_core.c	/^static int write_status;$/;"	v	file:
+writetospi	spi_core.c	/^int writetospi(uint16_t headerLength, uint8_t *headerBuffer, uint32_t bodyLength, uint8_t *bodyBuffer) {$/;"	f

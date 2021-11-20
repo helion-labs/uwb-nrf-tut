@@ -1,0 +1,15 @@
+speed 1000
+r 
+w4 4001E504 2
+w4 4001e50C 1 
+sleep    1000 
+w4 4001e504 1 
+sleep 1000 
+
+loadbin  mcu.bin      0
+loadbin  old.bin      0xc000
+loadbin  new.bin      0x46000
+
+r 
+g 
+exit
